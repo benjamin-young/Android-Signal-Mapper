@@ -15,15 +15,26 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
+import android.net.wifi.rtt.RangingRequest;
+import android.net.wifi.rtt.WifiRttManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.format.Time;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
@@ -31,53 +42,77 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private static final int REQUEST_ID_READ_WRITE_PERMISSION = 99;
 
     WifiManager wifiManager;
+
     String wifiString[];
     ListView lv;
     Button button1;
+    EditText X;
+    EditText Y;
 
     private SensorManager mSensorManager;
     private Sensor mMagneticField;
-
     private TextView emfText;
-
-
     private double h;
+
+    FirebaseDatabase database;
+    public Scan scan;
+
+    private class Scan {
+        public float magX;
+        public float magY;
+        public float magZ;
+        public double magH;
+        public List<String> scanResults;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //button1=(Button) findViewById(R.id.button);
+        button1 = (Button) findViewById(R.id.button);
         emfText = (TextView) findViewById(R.id.emfText);
+        X = (EditText) findViewById(R.id.editTextNumberDecimalX);
+        Y = (EditText) findViewById(R.id.editTextNumberDecimalY);
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-
         mMagneticField = mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
+
+        scan = new Scan();
 
         askWifiPermission();
 
         wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
 
         //check wifi state
-        if(wifiManager.getWifiState() == wifiManager.WIFI_STATE_DISABLED){
+        if (wifiManager.getWifiState() == wifiManager.WIFI_STATE_DISABLED) {
             wifiManager.setWifiEnabled(true);
         }
 
-        registerReceiver(wifiScanReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
-        wifiManager.startScan();
+        database = FirebaseDatabase.getInstance();
 
-
-
+        //registerReceiver(wifiScanReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+        //wifiManager.startScan();
     }
 
+    public void scan(View view){
+        registerReceiver(wifiScanReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+        wifiManager.startScan();
+    }
+
+    public void wifiRTT(View view){
+        Intent intent = new Intent(this, wifiRTT.class);
+        startActivity(intent);
+    }
+
+    @Override
     protected void onResume(){
-        registerReceiver(wifiScanReceiver,new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+        //registerReceiver(wifiScanReceiver,new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
         mSensorManager.registerListener(this,mMagneticField,SensorManager.SENSOR_DELAY_NORMAL);
 
         super.onResume();
     }
-
+    @Override
     protected void onPause(){
         unregisterReceiver(wifiScanReceiver);
         mSensorManager.unregisterListener(this);
@@ -86,10 +121,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
     public BroadcastReceiver wifiScanReceiver = new BroadcastReceiver() {
-
         public void onReceive(Context context, Intent intent) {
+            Toast.makeText(context, "Scanning Wifi", Toast.LENGTH_SHORT).show();
             List<ScanResult> wifiScanList = wifiManager.getScanResults();
             unregisterReceiver(this);
+
+            List<String> scanResults = new ArrayList<String>();
 
             wifiString = new String[wifiScanList.size()];
             Log.e("Wifi", String.valueOf(wifiScanList.size()));
@@ -97,9 +134,18 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             for (int i = 0; i<wifiScanList.size(); i++){
                 wifiString[i] = wifiScanList.get(i).SSID + ", " + wifiScanList.get(i).BSSID + ", " + String.valueOf(wifiScanList.get(i).level);
                 Log.e("Wifi",String.valueOf(wifiString[i]));
+                scanResults.add(wifiString[i]);
             }
-            lv=(ListView) findViewById(R.id.listView);
 
+            scan.scanResults = scanResults;
+
+            Time time = new Time();
+            time.setToNow();
+            DatabaseReference myRef = database.getReference(X.getText().toString()+","+Y.getText().toString()+","+Long.toString(time.toMillis(false)));
+            myRef.setValue(scan);
+
+
+            lv=(ListView) findViewById(R.id.listView);
             lv.setAdapter(new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1,wifiString));
         }
     };
@@ -159,14 +205,20 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
+
         h = Math.sqrt(sensorEvent.values[0] * sensorEvent.values[0] +
                 sensorEvent.values[1] * sensorEvent.values[1] +
                 sensorEvent.values[2] * sensorEvent.values[2]);
 
         emfText.setText("mag_Xaxis: " + sensorEvent.values[0] + "\n" +
-                        "mag_Xaxis: " + sensorEvent.values[1] + "\n" +
-                        "mag_Xaxis: " + sensorEvent.values[2] + "\n" +
+                        "mag_Yaxis: " + sensorEvent.values[1] + "\n" +
+                        "mag_Zaxis: " + sensorEvent.values[2] + "\n" +
                         "magnitude: " + h + "\n");
+
+        scan.magX = sensorEvent.values[0];
+        scan.magY = sensorEvent.values[1];
+        scan.magZ = sensorEvent.values[2];
+        scan.magH = h;
     }
 
     @Override

@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/bpyou/AndroidStudioProjects/SignalMapping/app/src/main/res/layout/activity_main.xml" value="0.2046875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.10258358662613981" />
+        <entry key="app/src/main/res/layout/activity_wifi_rtt.xml" value="0.33" />
       </map>
     </option>
   </component>

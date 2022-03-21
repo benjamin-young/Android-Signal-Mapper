@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "205373218004",
+    "project_id": "signalmapping",
+    "storage_bucket": "signalmapping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205373218004:android:a2001196533406a3782f41",
+        "android_client_info": {
+          "package_name": "com.example.signalmapping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205373218004-l99dev9861smsba9avhktupq2o0kjepk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnje0KTBTtqgJocnB1tUE5Pwjk0uWfmYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205373218004-l99dev9861smsba9avhktupq2o0kjepk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
