@@ -139,9 +139,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
             scan.scanResults = scanResults;
 
-            Time time = new Time();
-            time.setToNow();
-            DatabaseReference myRef = database.getReference(X.getText().toString()+","+Y.getText().toString()+","+Long.toString(time.toMillis(false)));
+            //Time time = new Time();
+            //time.setToNow();
+            DatabaseReference myRef = database.getReference(X.getText().toString()+","+Y.getText().toString());
             myRef.setValue(scan);
 
 
