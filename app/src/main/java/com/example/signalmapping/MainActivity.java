@@ -51,8 +51,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     private SensorManager mSensorManager;
     private Sensor mMagneticField;
+    private Sensor rotationSensor;
     private TextView emfText;
+    private TextView tv_compass;
     private double h;
+
+    private final float[] rotationMatrix = new float[16];
+    private final float[] radianValues = new float[3];
+    private final double[] degreeValues = new double[3];
 
     FirebaseDatabase database;
     public Scan scan;
@@ -74,9 +80,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         emfText = (TextView) findViewById(R.id.emfText);
         X = (EditText) findViewById(R.id.editTextNumberDecimalX);
         Y = (EditText) findViewById(R.id.editTextNumberDecimalY);
+        tv_compass = (TextView) findViewById(R.id.tv_compass);
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mMagneticField = mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
+        rotationSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR);
 
         scan = new Scan();
 
@@ -109,7 +117,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     protected void onResume(){
         //registerReceiver(wifiScanReceiver,new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
         mSensorManager.registerListener(this,mMagneticField,SensorManager.SENSOR_DELAY_NORMAL);
-
+        mSensorManager.registerListener(this, rotationSensor, SensorManager.SENSOR_DELAY_NORMAL);
         super.onResume();
     }
     @Override
@@ -206,19 +214,54 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
 
-        h = Math.sqrt(sensorEvent.values[0] * sensorEvent.values[0] +
-                sensorEvent.values[1] * sensorEvent.values[1] +
-                sensorEvent.values[2] * sensorEvent.values[2]);
+        if (sensorEvent.sensor.getType() == Sensor.TYPE_ROTATION_VECTOR) {
+            SensorManager.getRotationMatrixFromVector(rotationMatrix, sensorEvent.values);
+            SensorManager.getOrientation(rotationMatrix, radianValues);
+            degreeValues[0] = Math.toDegrees(radianValues[0]);
+            degreeValues[1] = Math.toDegrees(radianValues[1]);
+            degreeValues[2] = Math.toDegrees(radianValues[2]);
 
-        emfText.setText("mag_Xaxis: " + sensorEvent.values[0] + "\n" +
-                        "mag_Yaxis: " + sensorEvent.values[1] + "\n" +
-                        "mag_Zaxis: " + sensorEvent.values[2] + "\n" +
-                        "magnitude: " + h + "\n");
+            Log.e("X angle", Double.toString(degreeValues[0]));
+            Log.e("Y angle", Double.toString(degreeValues[1]));
+            Log.e("Z angle", Double.toString(degreeValues[2]));
 
-        scan.magX = sensorEvent.values[0];
-        scan.magY = sensorEvent.values[1];
-        scan.magZ = sensorEvent.values[2];
-        scan.magH = h;
+            // Determine compass direction
+            // TODO: Change string to resources
+            /*
+            if (degreeValues[0] >= -22.5 && degreeValues[0] < 22.5) {
+                tv_compass.setText("North");
+            } else if (degreeValues[0] >= -67.5 && degreeValues[0] < -22.5) {
+                tv_compass.setText("North-West");
+            } else if (degreeValues[0] >= -112.5 && degreeValues[0] < -67.5) {
+                tv_compass.setText("West");
+            } else if (degreeValues[0] >= -157.5 && degreeValues[0] < -112.5) {
+                tv_compass.setText("South-West");
+            } else if (degreeValues[0] >= 157.5 || degreeValues[0] < -157.5) {
+                tv_compass.setText("South");
+            } else if (degreeValues[0] >= 22.5 && degreeValues[0] < 67.5) {
+                tv_compass.setText("North-East");
+            } else if (degreeValues[0] >= 67.5 && degreeValues[0] < 112.5) {
+                tv_compass.setText("East");
+            } else {
+                tv_compass.setText("South-East");
+            }
+             */
+            tv_compass.setText(Double.toString(degreeValues[0]));
+        } else if (sensorEvent.sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
+            h = Math.sqrt(sensorEvent.values[0] * sensorEvent.values[0] +
+                    sensorEvent.values[1] * sensorEvent.values[1] +
+                    sensorEvent.values[2] * sensorEvent.values[2]);
+
+            emfText.setText("mag_Xaxis: " + sensorEvent.values[0] + "\n" +
+                    "mag_Yaxis: " + sensorEvent.values[1] + "\n" +
+                    "mag_Zaxis: " + sensorEvent.values[2] + "\n" +
+                    "magnitude: " + h + "\n");
+
+            scan.magX = sensorEvent.values[0];
+            scan.magY = sensorEvent.values[1];
+            scan.magZ = sensorEvent.values[2];
+            scan.magH = h;
+        }
     }
 
     @Override
