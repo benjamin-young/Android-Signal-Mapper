@@ -23,10 +23,12 @@ import android.text.Editable;
 import android.text.format.Time;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,7 +39,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements SensorEventListener {
+public class MainActivity extends AppCompatActivity implements SensorEventListener, AdapterView.OnItemSelectedListener {
 
     private static final int REQUEST_ID_READ_WRITE_PERMISSION = 99;
 
@@ -48,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     Button button1;
     EditText X;
     EditText Y;
+    Spinner spinner;
 
     private SensorManager mSensorManager;
     private Sensor mMagneticField;
@@ -60,6 +63,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private final float[] radianValues = new float[3];
     private final double[] degreeValues = new double[3];
 
+    String[] country = { "India", "USA", "China", "Japan", "Other"};
+
     FirebaseDatabase database;
     public Scan scan;
 
@@ -69,7 +74,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         public float magZ;
         public double magH;
         public List<String> scanResults;
+        public String area;
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,10 +88,18 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         X = (EditText) findViewById(R.id.editTextNumberDecimalX);
         Y = (EditText) findViewById(R.id.editTextNumberDecimalY);
         tv_compass = (TextView) findViewById(R.id.tv_compass);
+        spinner = (Spinner) findViewById(R.id.spinner);
+
+        //Creating the ArrayAdapter instance having the country list
+        ArrayAdapter aa = new ArrayAdapter(this,android.R.layout.simple_spinner_item,country);
+        aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //Setting the ArrayAdapter data on the Spinner
+        spinner.setAdapter(aa);
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mMagneticField = mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
         rotationSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR);
+        spinner.setOnItemSelectedListener(this);
 
         scan = new Scan();
 
@@ -101,6 +116,17 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         //registerReceiver(wifiScanReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
         //wifiManager.startScan();
+    }
+
+
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+        scan.area= (String) adapterView.getItemAtPosition(i);
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+
     }
 
     public void scan(View view){
