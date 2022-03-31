@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Signal Mapping</string>
-    <resources>
         <string-array name="areas_array">
             <item>Mercury</item>
             <item>Venus</item>
@@ -11,5 +10,4 @@
             <item>Uranus</item>
             <item>Neptune</item>
         </string-array>
-    </resources>
 </resources>
