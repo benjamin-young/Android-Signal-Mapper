@@ -15,12 +15,8 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
-import android.net.wifi.rtt.RangingRequest;
-import android.net.wifi.rtt.WifiRttManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.format.Time;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -36,7 +32,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener, AdapterView.OnItemSelectedListener {
@@ -63,10 +58,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private final float[] radianValues = new float[3];
     private final double[] degreeValues = new double[3];
 
-    String[] country = { "India", "USA", "China", "Japan", "Other"};
+    String[] areas = { "enginn", "corridor_sanderson", "corridor_fj", "sanderson", "fj", "tlg", "test"};
 
     FirebaseDatabase database;
     public Scan scan;
+    public String area;
 
     private class Scan {
         public float magX;
@@ -74,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         public float magZ;
         public double magH;
         public List<String> scanResults;
-        public String area;
+
     }
 
 
@@ -91,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         spinner = (Spinner) findViewById(R.id.spinner);
 
         //Creating the ArrayAdapter instance having the country list
-        ArrayAdapter aa = new ArrayAdapter(this,android.R.layout.simple_spinner_item,country);
+        ArrayAdapter aa = new ArrayAdapter(this,android.R.layout.simple_spinner_item, areas);
         aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         //Setting the ArrayAdapter data on the Spinner
         spinner.setAdapter(aa);
@@ -121,7 +117,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-        scan.area= (String) adapterView.getItemAtPosition(i);
+        area = (String) adapterView.getItemAtPosition(i);
     }
 
     @Override
@@ -175,7 +171,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
             //Time time = new Time();
             //time.setToNow();
-            DatabaseReference myRef = database.getReference(X.getText().toString()+","+Y.getText().toString());
+            DatabaseReference myRef = database.getReference(X.getText().toString()+","+Y.getText().toString()+"," + area);
             myRef.setValue(scan);
 
 
