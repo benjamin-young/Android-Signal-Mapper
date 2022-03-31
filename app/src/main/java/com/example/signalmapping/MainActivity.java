@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private TextView tv_compass;
     private double h;
 
+
     private final float[] rotationMatrix = new float[16];
     private final float[] radianValues = new float[3];
     private final double[] degreeValues = new double[3];
@@ -68,6 +69,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         public float magY;
         public float magZ;
         public double magH;
+
         public List<String> scanResults;
     }
 
@@ -149,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
             //Time time = new Time();
             //time.setToNow();
-            DatabaseReference myRef = database.getReference(X.getText().toString()+","+Y.getText().toString());
+            DatabaseReference myRef = database.getReference(X.getText().toString()+","+Y.getText().toString()+","+Integer.toString((int) (degreeValues[0])));
             myRef.setValue(scan);
 
 
@@ -247,6 +249,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }
              */
             tv_compass.setText(Double.toString(degreeValues[0]));
+
         } else if (sensorEvent.sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
             h = Math.sqrt(sensorEvent.values[0] * sensorEvent.values[0] +
                     sensorEvent.values[1] * sensorEvent.values[1] +
