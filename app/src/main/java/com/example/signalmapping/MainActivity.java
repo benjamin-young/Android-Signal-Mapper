@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.content.res.AssetManager;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -30,9 +31,20 @@ import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.gson.Gson;
 
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener, AdapterView.OnItemSelectedListener {
 
@@ -52,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private Sensor rotationSensor;
     private TextView emfText;
     private TextView tv_compass;
+    private TextView predicted_coordinates;
     private double h;
 
     private final float[] rotationMatrix = new float[16];
@@ -70,9 +83,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         public float magZ;
         public double magH;
         public List<String> scanResults;
-
     }
 
+    EmfGlobalMap emfGlobalMap;
+    WifiGlobalMap wifiGlobalMap;
+    LocationPrediction locationPrediction;
+    private boolean predictFlag = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         X = (EditText) findViewById(R.id.editTextNumberDecimalX);
         Y = (EditText) findViewById(R.id.editTextNumberDecimalY);
         tv_compass = (TextView) findViewById(R.id.tv_compass);
+        predicted_coordinates = (TextView) findViewById(R.id.predicted_coordinates);
         spinner = (Spinner) findViewById(R.id.spinner);
 
         //Creating the ArrayAdapter instance having the country list
@@ -110,10 +127,96 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         database = FirebaseDatabase.getInstance();
 
-        //registerReceiver(wifiScanReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
-        //wifiManager.startScan();
+        // -----
+        // begin predictor code
+        // -----
+        AssetManager assetManager = this.getAssets();
+        InputStream fileIn = null;
+        try {
+            fileIn = assetManager.open("new-signalmapping-default-rtdb-export.json");
+            System.out.println(fileIn);
+        } catch (IOException exception) {
+            exception.printStackTrace();
+        }
+        try (Reader reader = new InputStreamReader(fileIn)) {
+            // extract json info into Map, before putting contents in Reading objects
+            Map<String, Map> inputJson = new Gson().fromJson(reader, Map.class);
+            ArrayList<Reading> readings = new ArrayList<>();
+
+            for (var key:
+                    inputJson.keySet()) {
+                // split key into components and assign to object variables
+                String[] keyParts = key.toString().split(",");
+                int x = Integer.parseInt(keyParts[0]);
+                int y = Integer.parseInt(keyParts[1]);
+                String building = keyParts[2];
+
+                /* depending on building location, add adjustment for global coordinates
+                   buildings are:
+                   "enginn", "sanderson", "fj", "corridor_sanderson", "corridor_fj", "tlg"
+                 */
+                if (building.equals("enginn")) {
+                    // add adjustment of 0 on x-axis and +10 on y-axis
+                    y += 10;
+                } else if (building.equals("corridor_sanderson")) {
+                    // add adjustment of +3 on x-axis and +10 on y-axis
+                    x += 3;
+                    y += 10;
+                } else if (building.equals("corridor_fj")) {
+                    // add adjustment of 0 on x-axis and +21 on y-axis
+                    y += 21;
+                } else if (building.equals("sanderson")) {
+                    // add adjustment of +12 on x-axis and -1 adjustment to y-axis
+                    x += 12;
+                    y -= 1;
+                } else if (building.equals("fj")) {
+                    // no adjustment on x-axis and (12 - y) + 34 adjustment to y-axis (to flip inverted y-axis)
+                    y = (12 - y) + 34;
+                    // adjust
+                } else if (building.equals("tlg")) {
+                    // add adjustment of +1 on x-axis and +43 on y-axis
+                    x += 17;
+                    y += 41;
+                }
+
+                // get value and assign to object variables
+                Map<String, Object> inside = inputJson.get(key);
+
+                // get scan readings
+                ArrayList<String> scanResults = new ArrayList<>();
+                scanResults.addAll((ArrayList<String>) inside.get("scanResults"));
+
+                // get mag readings
+                double magH = (Double) inside.get("magH");
+                double magX = (Double) inside.get("magX");
+                double magY = (Double) inside.get("magY");
+                double magZ = (Double) inside.get("magZ");
+
+                // construct object for reading
+                Reading instance = new Reading(x, y, building, magH, magX, magY, magZ, scanResults);
+                readings.add(instance);
+            }
+
+            // generate wifi and emf maps
+            emfGlobalMap = new EmfGlobalMap(readings);
+            wifiGlobalMap = new WifiGlobalMap(readings);
+
+            // create location prediction object
+            locationPrediction = new LocationPrediction(wifiGlobalMap, emfGlobalMap);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        // -----
+        // end predictor code
+        // -----
     }
 
+    public void predictOnClick(View view) {
+        predictFlag = true;
+        registerReceiver(wifiScanReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+        wifiManager.startScan();
+    }
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
@@ -142,6 +245,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         mSensorManager.registerListener(this, rotationSensor, SensorManager.SENSOR_DELAY_NORMAL);
         super.onResume();
     }
+
     @Override
     protected void onPause(){
         unregisterReceiver(wifiScanReceiver);
@@ -169,14 +273,49 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
             scan.scanResults = scanResults;
 
-            //Time time = new Time();
-            //time.setToNow();
-            DatabaseReference myRef = database.getReference(X.getText().toString()+","+Y.getText().toString()+"," + area);
-            myRef.setValue(scan);
-
-
             lv=(ListView) findViewById(R.id.listView);
             lv.setAdapter(new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1,wifiString));
+
+            // do prediction related activities
+            if (predictFlag) {
+                TreeMap<Integer, String> sortedMap = new TreeMap<>();
+                ArrayList<String> sortedScan = new ArrayList<>();
+
+                // get the strongest access points by sorting wifi scan
+                for (String scan:
+                     scanResults) {
+                    String[] scanParts = scan.split(", ");
+                    sortedMap.put(Integer.parseInt(scanParts[2]), scan);
+                }
+
+                // get the 3 strongest signals and put in an array list
+                // first check keyset is large enough
+                int keySetSize = sortedMap.keySet().size();
+                if (keySetSize > 5) {
+                    keySetSize = 5;
+                }
+
+                Set<Integer> keySetSorted = sortedMap.descendingKeySet();
+
+                for (int i = 0; i < keySetSize; i++) {
+                    int key = (int) keySetSorted.toArray()[i];
+                    sortedScan.add(sortedMap.get(key));
+                }
+
+                // send to wifi predictor
+                HashMap<Integer, ArrayList<LocationPrediction.Coordinates>> lp = locationPrediction.getClosestAccessPoints(sortedScan);
+
+                // use emf to predict coordinates
+                LocationPrediction.Coordinates outputPrediction = locationPrediction.getLocationPrediction(h, lp, emfGlobalMap.getMaxReading());
+                predicted_coordinates.setText("predicted coordinates: (" + outputPrediction.getX() + ", " + outputPrediction.getY() + ")");
+
+                // return without sending data to database
+                predictFlag = false;
+                return;
+            }
+
+            DatabaseReference myRef = database.getReference(X.getText().toString()+","+Y.getText().toString()+"," + area);
+            myRef.setValue(scan);
         }
     };
 

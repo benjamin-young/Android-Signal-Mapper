@@ -1,0 +1,940 @@
+{
+  "0,0,corridor_fj" : {
+    "magH" : 49.37425088434887,
+    "magX" : 13.997499465942383,
+    "magY" : -23.34000015258789,
+    "magZ" : -41.196250915527344,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:a9:60, -71", "central, b8:3a:5a:bb:a9:61, -81", "Visit-Ed, b8:3a:5a:bb:a9:62, -81", "Visit-Ed, b8:3a:5a:bb:6c:82, -89", "central, b8:3a:5a:bb:6c:81, -86", "central, c4:0a:cb:25:13:c0, -75", "TP-Link_F946, d8:07:b6:13:f9:46, -90", "central, c4:0a:cb:2c:d2:9f, -88", "Visit-Ed, b8:3a:5a:bc:52:62, -64", "central, b8:3a:5a:bc:52:61, -64", "eduroam, b8:3a:5a:bc:52:60, -61", "Visit-Ed, b8:3a:5a:bb:e0:42, -88", "central, b8:3a:5a:ba:96:a1, -90", "Visit-Ed, b8:3a:5a:bc:51:62, -85", "eduroam, b8:3a:5a:ba:96:a0, -87", "central, b8:3a:5a:bb:a9:71, -82", "Visit-Ed, b8:3a:5a:bb:a9:72, -82", "central, c4:0a:cb:25:13:cf, -85", "eduroam, c4:0a:cb:25:13:ce, -85", "eduroam, b8:3a:5a:bb:a9:70, -83", "central, c4:0a:cb:2c:d2:90, -84", "eduroam, b8:be:bf:ef:4e:ae, -84", "central, b8:be:bf:ef:4e:af, -85" ]
+  },
+  "0,0,corridor_sanderson" : {
+    "magH" : 36.965044985516386,
+    "magX" : 18.19499969482422,
+    "magY" : -10.6274995803833,
+    "magZ" : -30.37125015258789,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -81", "eduroam, b8:be:bf:ef:4e:a1, -80", "central, b8:be:bf:ef:4e:a0, -81", "Visit-Ed, b8:3a:5a:bb:6c:82, -87", "central, b8:3a:5a:bb:6c:81, -88", "eduroam, c4:0a:cb:25:13:c1, -68", "central, c4:0a:cb:25:13:c0, -64", "eduroam, 5c:50:15:72:c5:c1, -78", "central, c4:0a:cb:2c:d2:9f, -70", "eduroam, c4:0a:cb:2c:d2:9e, -70", "Visit-Ed, b8:3a:5a:bc:52:62, -84", "central, 24:01:c7:f7:7f:1f, -88", "central, b8:3a:5a:bc:52:61, -83", "eduroam, 24:01:c7:f7:7f:1e, -88", "central, 58:97:1e:15:09:f0, -77", "eduroam, 58:97:1e:15:09:f1, -77", "central, 00:3a:7d:a2:97:6f, -88", "central, b8:3a:5a:ba:96:a1, -88", "central, c4:0a:cb:25:13:cf, -73", "eduroam, c4:0a:cb:25:13:ce, -74", "eduroam, c4:0a:cb:2c:d2:91, -63", "central, c4:0a:cb:2c:d2:90, -63", "eduroam, b8:be:bf:ef:4e:ae, -85", "central, 58:97:1e:15:09:ff, -86", "eduroam, 58:97:1e:15:09:fe, -87" ]
+  },
+  "0,0,enginn" : {
+    "magH" : 53.1381647291403,
+    "magX" : -1.5749999284744263,
+    "magY" : -34.005001068115234,
+    "magZ" : -40.80249786376953,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -78", "central, 58:97:1e:14:16:1f, -81", "central, 54:78:1a:73:a2:60, -79", "eduroam, b8:be:bf:ef:1b:e1, -65", "HANABI, 58:97:1e:14:16:1d, -81", "central, b8:be:bf:ef:1b:e0, -65", "eduroam, 58:97:1e:14:16:1e, -80", "eduroam, c4:0a:cb:25:13:c1, -77", "eduroam, 58:97:1e:15:11:61, -86", "eduroam, 5c:83:8f:d8:76:2e, -83", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -78", "HANABI, 58:97:1e:14:16:12, -78", "eduroam, 34:db:fd:97:fd:41, -77", "eduroam, b8:be:bf:ef:1b:ee, -76", "central, 58:97:1e:14:16:10, -76", "eduroam, 58:97:1e:14:16:11, -74", "BTWholeHome-RMG, ec:6c:9a:25:7f:3e, -87", "central, b8:be:bf:ef:1b:ef, -77", "central, 5c:83:8f:d8:76:20, -81", "eduroam, 54:78:1a:73:a2:6e, -78", "eduroam, 34:db:fd:97:fd:4e, -70", "central, 34:db:fd:97:fd:4f, -70", "central, c4:0a:cb:25:13:cf, -85", "eduroam, c4:0a:cb:25:13:ce, -85", ", ee:6c:9a:25:7f:3e, -88" ]
+  },
+  "0,1,corridor_fj" : {
+    "magH" : 54.40821318614842,
+    "magX" : 11.932499885559082,
+    "magY" : -25.837499618530273,
+    "magZ" : -46.37125015258789,
+    "scanResults" : [ "central, 54:78:1a:73:a2:60, -81", "eduroam, b8:be:bf:ef:4e:a1, -79", "central, b8:be:bf:ef:4e:a0, -79", "SolsticePod_HB_CR5, ac:d5:64:21:3d:c7, -80", "central, b8:be:bf:ef:1b:e0, -80", "Visit-Ed, b8:3a:5a:bb:6c:82, -90", "central, b8:3a:5a:bb:6c:81, -89", "central, c4:0a:cb:25:13:c0, -70", "eduroam, 5c:50:15:72:c5:c1, -74", "central, 5c:50:15:72:c5:c0, -74", "central, c4:0a:cb:2c:d2:9f, -78", "eduroam, c4:0a:cb:2c:d2:9e, -78", "Visit-Ed, b8:3a:5a:bc:52:62, -82", "central, b8:3a:5a:bc:52:61, -82", "central, 58:97:1e:15:09:f0, -79", "eduroam, b8:be:bf:ef:1b:ee, -89", "eduroam, 00:3a:7d:a2:97:6e, -83", "central, b8:be:bf:ef:1b:ef, -89", "central, 00:3a:7d:a2:97:6f, -82", "eduroam, 54:78:1a:73:a2:6e, -87", "central, 54:78:1a:73:a2:6f, -86", "central, b8:3a:5a:bc:51:61, -93", "Visit-Ed, b8:3a:5a:bc:51:62, -91", "central, c4:0a:cb:25:13:cf, -82", "eduroam, c4:0a:cb:25:13:ce, -77", "eduroam, c4:0a:cb:2c:d2:91, -68", "central, 5c:50:15:72:c5:cf, -85", "central, c4:0a:cb:2c:d2:90, -69", "eduroam, b8:be:bf:ef:4e:ae, -83", "central, 58:97:1e:15:09:ff, -91", "central, b8:be:bf:ef:4e:af, -82" ]
+  },
+  "0,1,enginn" : {
+    "magH" : 50.03511950214319,
+    "magX" : 13.341249465942383,
+    "magY" : -26.654998779296875,
+    "magZ" : -40.1875,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -78", "central, 58:97:1e:14:16:1f, -81", "central, 54:78:1a:73:a2:60, -79", "eduroam, b8:be:bf:ef:1b:e1, -65", "HANABI, 58:97:1e:14:16:1d, -81", "central, b8:be:bf:ef:1b:e0, -65", "eduroam, 58:97:1e:14:16:1e, -80", "eduroam, c4:0a:cb:25:13:c1, -77", "eduroam, 58:97:1e:15:11:61, -86", "eduroam, 5c:83:8f:d8:76:2e, -83", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -78", "HANABI, 58:97:1e:14:16:12, -78", "eduroam, 34:db:fd:97:fd:41, -77", "eduroam, b8:be:bf:ef:1b:ee, -76", "central, 58:97:1e:14:16:10, -76", "eduroam, 58:97:1e:14:16:11, -74", "BTWholeHome-RMG, ec:6c:9a:25:7f:3e, -87", "central, b8:be:bf:ef:1b:ef, -77", "central, 5c:83:8f:d8:76:20, -81", "eduroam, 54:78:1a:73:a2:6e, -78", "eduroam, 34:db:fd:97:fd:4e, -70", "central, 34:db:fd:97:fd:4f, -70", "central, c4:0a:cb:25:13:cf, -85", "eduroam, c4:0a:cb:25:13:ce, -85", ", ee:6c:9a:25:7f:3e, -88" ]
+  },
+  "0,1,tlg" : {
+    "magH" : 35.65087978566851,
+    "magX" : 21.24625015258789,
+    "magY" : -7.259999752044678,
+    "magZ" : -27.6924991607666,
+    "scanResults" : [ "central, 34:a8:4e:fd:68:e0, -81", "wormzer, b6:ed:84:07:01:75, -64", "eduroam, 00:1b:8f:88:9a:ee, -89", "central, 00:1b:8f:88:9a:ef, -89", "midea_15_0595, 70:86:ce:82:53:9f, -81", "central, 54:78:1a:21:3b:cf, -83", "eduroam, 54:78:1a:21:3b:ce, -83", "central, 54:78:1a:21:3b:c0, -82", "eduroam, 54:78:1a:21:3b:c1, -81", "eduroam, 58:97:1e:14:75:51, -72", "eduroam, 34:a8:4e:fd:68:ee, -80", "central, 00:1b:8f:88:9a:e0, -90", "central, 34:a8:4e:fd:68:ef, -81", "central, 6c:99:89:0d:91:4f, -68", "eduroam, 6c:99:89:0d:91:4e, -70", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -86", "eduroam, b8:3a:5a:bb:64:60, -69", "central, b8:3a:5a:bb:64:61, -73", "central, 6c:99:89:0d:91:40, -65", "eduroam, 6c:99:89:0d:91:41, -62" ]
+  },
+  "0,2,enginn" : {
+    "magH" : 50.917360857754105,
+    "magX" : 8.741250038146973,
+    "magY" : -22.0987491607666,
+    "magZ" : -45.03125,
+    "scanResults" : [ "central, 58:97:1e:14:16:1f, -66", "eduroam, b8:be:bf:ef:1b:e1, -61", "HANABI, 58:97:1e:14:16:1d, -66", "central, b8:be:bf:ef:1b:e0, -57", "eduroam, 58:97:1e:14:16:1e, -67", "central, c4:0a:cb:25:13:c0, -72", "central, c4:0a:cb:2c:d2:9f, -75", "eduroam, c4:0a:cb:2c:d2:9e, -75", "HANABI, 58:97:1e:14:16:12, -75", "central, 58:97:1e:15:09:f0, -75", "eduroam, b8:be:bf:ef:1b:ee, -64", "central, 58:97:1e:14:16:10, -74", "eduroam, 58:97:1e:14:16:11, -75", "central, b8:be:bf:ef:1b:ef, -64", "eduroam, 34:db:fd:97:fd:4e, -84", "central, 34:db:fd:97:fd:4f, -83", "central, c4:0a:cb:25:13:cf, -74", "eduroam, c4:0a:cb:25:13:ce, -72", "central, c4:0a:cb:2c:d2:90, -74", "central, 58:97:1e:15:09:ff, -84", "eduroam, 58:97:1e:15:09:fe, -86" ]
+  },
+  "0,2,tlg" : {
+    "magH" : 35.64971387836619,
+    "magX" : 11.216249465942383,
+    "magY" : 4.5,
+    "magZ" : -33.53874969482422,
+    "scanResults" : [ "wormzer, b6:ed:84:07:01:75, -70", "central, 54:78:1a:21:3b:c0, -84", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -74", "eduroam, 58:97:1e:14:75:51, -73", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -81", "central, 6c:99:89:0d:91:4f, -68", "eduroam, 6c:99:89:0d:91:4e, -67", "central, 58:97:1e:14:75:5f, -82", "eduroam, 58:97:1e:14:75:5e, -82", "central, 6c:99:89:0d:91:40, -63", "eduroam, 6c:99:89:0d:91:41, -58" ]
+  },
+  "0,3,enginn" : {
+    "magH" : 49.33386587594393,
+    "magX" : 8.319999694824219,
+    "magY" : -20.596248626708984,
+    "magZ" : -44.04999923706055,
+    "scanResults" : [ "central, 58:97:1e:14:16:1f, -68", "eduroam, b8:be:bf:ef:1b:e1, -55", "HANABI, 58:97:1e:14:16:1d, -68", "central, b8:be:bf:ef:1b:e0, -55", "eduroam, 58:97:1e:14:16:1e, -68", "SolsticePod_HB_CR5, ac:d5:64:21:3d:c7, -86", "eduroam, c4:0a:cb:25:13:c1, -64", "central, c4:0a:cb:25:13:c0, -64", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -84", "central, c4:0a:cb:2c:d2:9f, -80", "eduroam, c4:0a:cb:2c:d2:9e, -80", "HANABI, 58:97:1e:14:16:12, -69", "central, 34:db:fd:97:fd:40, -78", "central, 58:97:1e:15:09:f0, -76", "eduroam, 58:97:1e:15:09:f1, -76", "eduroam, b8:be:bf:ef:1b:ee, -59", "central, 58:97:1e:14:16:10, -70", "eduroam, 58:97:1e:14:16:11, -68", "central, b8:be:bf:ef:1b:ef, -62", "eduroam, 34:db:fd:97:fd:4e, -88", "central, 34:db:fd:97:fd:4f, -89", "central, c4:0a:cb:25:13:cf, -71", "eduroam, c4:0a:cb:25:13:ce, -71", "eduroam, c4:0a:cb:2c:d2:91, -76", "central, 58:97:1e:15:09:ff, -72", "central, c4:0a:cb:2c:d2:90, -76", "eduroam, 58:97:1e:15:09:fe, -73" ]
+  },
+  "0,4,enginn" : {
+    "magH" : 49.08863257064969,
+    "magX" : 8.571249961853027,
+    "magY" : -27.079999923706055,
+    "magZ" : -40.03624725341797,
+    "scanResults" : [ "central, 58:97:1e:14:16:1f, -68", "eduroam, b8:be:bf:ef:1b:e1, -55", "HANABI, 58:97:1e:14:16:1d, -68", "central, b8:be:bf:ef:1b:e0, -55", "eduroam, 58:97:1e:14:16:1e, -68", "SolsticePod_HB_CR5, ac:d5:64:21:3d:c7, -86", "eduroam, c4:0a:cb:25:13:c1, -64", "central, c4:0a:cb:25:13:c0, -64", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -84", "central, c4:0a:cb:2c:d2:9f, -80", "eduroam, c4:0a:cb:2c:d2:9e, -80", "HANABI, 58:97:1e:14:16:12, -69", "central, 34:db:fd:97:fd:40, -78", "central, 58:97:1e:15:09:f0, -76", "eduroam, 58:97:1e:15:09:f1, -76", "eduroam, b8:be:bf:ef:1b:ee, -59", "central, 58:97:1e:14:16:10, -70", "eduroam, 58:97:1e:14:16:11, -68", "central, b8:be:bf:ef:1b:ef, -62", "eduroam, 34:db:fd:97:fd:4e, -88", "central, 34:db:fd:97:fd:4f, -89", "central, c4:0a:cb:25:13:cf, -71", "eduroam, c4:0a:cb:25:13:ce, -71", "eduroam, c4:0a:cb:2c:d2:91, -76", "central, 58:97:1e:15:09:ff, -72", "central, c4:0a:cb:2c:d2:90, -76", "eduroam, 58:97:1e:15:09:fe, -73" ]
+  },
+  "0,5,enginn" : {
+    "magH" : 48.61244867331438,
+    "magX" : 7.042500019073486,
+    "magY" : -23.98124885559082,
+    "magZ" : -41.69499969482422,
+    "scanResults" : [ "central, 58:97:1e:14:16:1f, -68", "eduroam, b8:be:bf:ef:1b:e1, -55", "HANABI, 58:97:1e:14:16:1d, -68", "central, b8:be:bf:ef:1b:e0, -55", "eduroam, 58:97:1e:14:16:1e, -68", "SolsticePod_HB_CR5, ac:d5:64:21:3d:c7, -86", "eduroam, c4:0a:cb:25:13:c1, -64", "central, c4:0a:cb:25:13:c0, -64", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -84", "central, c4:0a:cb:2c:d2:9f, -80", "eduroam, c4:0a:cb:2c:d2:9e, -80", "HANABI, 58:97:1e:14:16:12, -69", "central, 34:db:fd:97:fd:40, -78", "central, 58:97:1e:15:09:f0, -76", "eduroam, 58:97:1e:15:09:f1, -76", "eduroam, b8:be:bf:ef:1b:ee, -59", "central, 58:97:1e:14:16:10, -70", "eduroam, 58:97:1e:14:16:11, -68", "central, b8:be:bf:ef:1b:ef, -62", "eduroam, 34:db:fd:97:fd:4e, -88", "central, 34:db:fd:97:fd:4f, -89", "central, c4:0a:cb:25:13:cf, -71", "eduroam, c4:0a:cb:25:13:ce, -71", "eduroam, c4:0a:cb:2c:d2:91, -76", "central, 58:97:1e:15:09:ff, -72", "central, c4:0a:cb:2c:d2:90, -76", "eduroam, 58:97:1e:15:09:fe, -73" ]
+  },
+  "0,6,enginn" : {
+    "magH" : 45.48189243053218,
+    "magX" : 10.637499809265137,
+    "magY" : -24.596248626708984,
+    "magZ" : -36.748748779296875,
+    "scanResults" : [ "central, 58:97:1e:14:16:1f, -68", "eduroam, b8:be:bf:ef:1b:e1, -55", "HANABI, 58:97:1e:14:16:1d, -68", "central, b8:be:bf:ef:1b:e0, -55", "eduroam, 58:97:1e:14:16:1e, -68", "SolsticePod_HB_CR5, ac:d5:64:21:3d:c7, -86", "eduroam, c4:0a:cb:25:13:c1, -64", "central, c4:0a:cb:25:13:c0, -64", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -84", "central, c4:0a:cb:2c:d2:9f, -80", "eduroam, c4:0a:cb:2c:d2:9e, -80", "HANABI, 58:97:1e:14:16:12, -69", "central, 34:db:fd:97:fd:40, -78", "central, 58:97:1e:15:09:f0, -76", "eduroam, 58:97:1e:15:09:f1, -76", "eduroam, b8:be:bf:ef:1b:ee, -59", "central, 58:97:1e:14:16:10, -70", "eduroam, 58:97:1e:14:16:11, -68", "central, b8:be:bf:ef:1b:ef, -62", "eduroam, 34:db:fd:97:fd:4e, -88", "central, 34:db:fd:97:fd:4f, -89", "central, c4:0a:cb:25:13:cf, -71", "eduroam, c4:0a:cb:25:13:ce, -71", "eduroam, c4:0a:cb:2c:d2:91, -76", "central, 58:97:1e:15:09:ff, -72", "central, c4:0a:cb:2c:d2:90, -76", "eduroam, 58:97:1e:15:09:fe, -73" ]
+  },
+  "0,7,enginn" : {
+    "magH" : 44.48680347691605,
+    "magX" : 8.827499389648438,
+    "magY" : -21.438749313354492,
+    "magZ" : -37.967498779296875,
+    "scanResults" : [ "central, 58:97:1e:14:16:1f, -68", "eduroam, b8:be:bf:ef:1b:e1, -55", "HANABI, 58:97:1e:14:16:1d, -68", "central, b8:be:bf:ef:1b:e0, -55", "eduroam, 58:97:1e:14:16:1e, -68", "SolsticePod_HB_CR5, ac:d5:64:21:3d:c7, -86", "eduroam, c4:0a:cb:25:13:c1, -64", "central, c4:0a:cb:25:13:c0, -64", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -84", "central, c4:0a:cb:2c:d2:9f, -80", "eduroam, c4:0a:cb:2c:d2:9e, -80", "HANABI, 58:97:1e:14:16:12, -69", "central, 34:db:fd:97:fd:40, -78", "central, 58:97:1e:15:09:f0, -76", "eduroam, 58:97:1e:15:09:f1, -76", "eduroam, b8:be:bf:ef:1b:ee, -59", "central, 58:97:1e:14:16:10, -70", "eduroam, 58:97:1e:14:16:11, -68", "central, b8:be:bf:ef:1b:ef, -62", "eduroam, 34:db:fd:97:fd:4e, -88", "central, 34:db:fd:97:fd:4f, -89", "central, c4:0a:cb:25:13:cf, -71", "eduroam, c4:0a:cb:25:13:ce, -71", "eduroam, c4:0a:cb:2c:d2:91, -76", "central, 58:97:1e:15:09:ff, -72", "central, c4:0a:cb:2c:d2:90, -76", "eduroam, 58:97:1e:15:09:fe, -73" ]
+  },
+  "0,8,enginn" : {
+    "magH" : 44.140824114595155,
+    "magX" : 13.154999732971191,
+    "magY" : -22.47749900817871,
+    "magZ" : -35.63874816894531,
+    "scanResults" : [ "central, 58:97:1e:14:16:1f, -68", "eduroam, b8:be:bf:ef:1b:e1, -55", "HANABI, 58:97:1e:14:16:1d, -68", "central, b8:be:bf:ef:1b:e0, -55", "eduroam, 58:97:1e:14:16:1e, -68", "SolsticePod_HB_CR5, ac:d5:64:21:3d:c7, -86", "eduroam, c4:0a:cb:25:13:c1, -64", "central, c4:0a:cb:25:13:c0, -64", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -84", "central, c4:0a:cb:2c:d2:9f, -80", "eduroam, c4:0a:cb:2c:d2:9e, -80", "HANABI, 58:97:1e:14:16:12, -69", "central, 34:db:fd:97:fd:40, -78", "central, 58:97:1e:15:09:f0, -76", "eduroam, 58:97:1e:15:09:f1, -76", "eduroam, b8:be:bf:ef:1b:ee, -59", "central, 58:97:1e:14:16:10, -70", "eduroam, 58:97:1e:14:16:11, -68", "central, b8:be:bf:ef:1b:ef, -62", "eduroam, 34:db:fd:97:fd:4e, -88", "central, 34:db:fd:97:fd:4f, -89", "central, c4:0a:cb:25:13:cf, -71", "eduroam, c4:0a:cb:25:13:ce, -71", "eduroam, c4:0a:cb:2c:d2:91, -76", "central, 58:97:1e:15:09:ff, -72", "central, c4:0a:cb:2c:d2:90, -76", "eduroam, 58:97:1e:15:09:fe, -73" ]
+  },
+  "1,0,corridor_sanderson" : {
+    "magH" : 32.507443558648994,
+    "magX" : 5.474999904632568,
+    "magY" : 2.4075000286102295,
+    "magZ" : -31.952499389648438,
+    "scanResults" : [ "central, 58:97:1e:14:16:1f, -87", "eduroam, b8:be:bf:ef:1b:e1, -60", "HANABI, 58:97:1e:14:16:1d, -86", "eduroam, b8:be:bf:ef:4e:a1, -88", "central, b8:be:bf:ef:1b:e0, -61", "eduroam, 58:97:1e:14:16:1e, -87", "eduroam, c4:0a:cb:25:13:c1, -81", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -83", "central, b8:3a:5a:ba:eb:21, -91", "eduroam, 58:97:1e:14:75:51, -87", "HANABI, 58:97:1e:14:16:12, -75", "central, 34:db:fd:97:fd:40, -80", "eduroam, 34:db:fd:97:fd:41, -80", "central, 58:97:1e:14:16:10, -75", "eduroam, b8:be:bf:ef:1b:ee, -77", "eduroam, 58:97:1e:14:16:11, -74", "central, b8:be:bf:ef:1b:ef, -78", "eduroam, 5c:83:8f:d8:76:21, -87", "central, f8:4f:57:f1:c3:50, -90", "eduroam, 54:78:1a:73:a2:6e, -79", "central, 54:78:1a:73:a2:6f, -79", "eduroam, 34:db:fd:97:fd:4e, -78", "central, 34:db:fd:97:fd:4f, -79", "eduroam, c4:0a:cb:25:13:ce, -87" ]
+  },
+  "1,0,enginn" : {
+    "magH" : 49.62492128457233,
+    "magX" : -13.797499656677246,
+    "magY" : -22.69999885559082,
+    "magZ" : -41.9162483215332,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -78", "central, 58:97:1e:14:16:1f, -81", "central, 54:78:1a:73:a2:60, -79", "eduroam, b8:be:bf:ef:1b:e1, -65", "HANABI, 58:97:1e:14:16:1d, -81", "central, b8:be:bf:ef:1b:e0, -65", "eduroam, 58:97:1e:14:16:1e, -80", "eduroam, c4:0a:cb:25:13:c1, -77", "eduroam, 58:97:1e:15:11:61, -86", "eduroam, 5c:83:8f:d8:76:2e, -83", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -78", "HANABI, 58:97:1e:14:16:12, -78", "eduroam, 34:db:fd:97:fd:41, -77", "eduroam, b8:be:bf:ef:1b:ee, -76", "central, 58:97:1e:14:16:10, -76", "eduroam, 58:97:1e:14:16:11, -74", "BTWholeHome-RMG, ec:6c:9a:25:7f:3e, -87", "central, b8:be:bf:ef:1b:ef, -77", "central, 5c:83:8f:d8:76:20, -81", "eduroam, 54:78:1a:73:a2:6e, -78", "eduroam, 34:db:fd:97:fd:4e, -70", "central, 34:db:fd:97:fd:4f, -70", "central, c4:0a:cb:25:13:cf, -85", "eduroam, c4:0a:cb:25:13:ce, -85", ", ee:6c:9a:25:7f:3e, -88" ]
+  },
+  "1,1,corridor_fj" : {
+    "magH" : 48.65640805610167,
+    "magX" : 11.867499351501465,
+    "magY" : -26.024999618530273,
+    "magZ" : -39.36124801635742,
+    "scanResults" : [ "central, 54:78:1a:73:a2:60, -81", "eduroam, b8:be:bf:ef:4e:a1, -79", "central, b8:be:bf:ef:4e:a0, -79", "SolsticePod_HB_CR5, ac:d5:64:21:3d:c7, -80", "central, b8:be:bf:ef:1b:e0, -80", "Visit-Ed, b8:3a:5a:bb:6c:82, -90", "central, b8:3a:5a:bb:6c:81, -89", "central, c4:0a:cb:25:13:c0, -70", "eduroam, 5c:50:15:72:c5:c1, -74", "central, 5c:50:15:72:c5:c0, -74", "central, c4:0a:cb:2c:d2:9f, -78", "eduroam, c4:0a:cb:2c:d2:9e, -78", "Visit-Ed, b8:3a:5a:bc:52:62, -82", "central, b8:3a:5a:bc:52:61, -82", "central, 58:97:1e:15:09:f0, -79", "eduroam, b8:be:bf:ef:1b:ee, -89", "eduroam, 00:3a:7d:a2:97:6e, -83", "central, b8:be:bf:ef:1b:ef, -89", "central, 00:3a:7d:a2:97:6f, -82", "eduroam, 54:78:1a:73:a2:6e, -87", "central, 54:78:1a:73:a2:6f, -86", "central, b8:3a:5a:bc:51:61, -93", "Visit-Ed, b8:3a:5a:bc:51:62, -91", "central, c4:0a:cb:25:13:cf, -82", "eduroam, c4:0a:cb:25:13:ce, -77", "eduroam, c4:0a:cb:2c:d2:91, -68", "central, 5c:50:15:72:c5:cf, -85", "central, c4:0a:cb:2c:d2:90, -69", "eduroam, b8:be:bf:ef:4e:ae, -83", "central, 58:97:1e:15:09:ff, -91", "central, b8:be:bf:ef:4e:af, -82" ]
+  },
+  "1,1,tlg" : {
+    "magH" : 33.5947892281117,
+    "magX" : 7.727499961853027,
+    "magY" : 0.9975000023841858,
+    "magZ" : -32.678749084472656,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "wormzer, b6:ed:84:07:01:75, -71", "eduroam, 00:1b:8f:88:9a:ee, -87", "midea_15_0595, 70:86:ce:82:53:9f, -81", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:c0, -83", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -70", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -82", "central, 6c:99:89:0d:91:4f, -69", "eduroam, 6c:99:89:0d:91:4e, -66", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -78", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "central, 6c:99:89:0d:91:40, -62", "eduroam, 6c:99:89:0d:91:41, -75" ]
+  },
+  "1,10,corridor_fj" : {
+    "magH" : 43.77994371489858,
+    "magX" : 10.635000228881836,
+    "magY" : -19.05500030517578,
+    "magZ" : -37.95375061035156,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:a9:60, -75", "central, b8:3a:5a:bb:a9:61, -75", "Visit-Ed, b8:3a:5a:bb:a9:62, -76", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "eduroam, c4:0a:cb:25:13:c1, -86", "central, c4:0a:cb:25:13:c0, -85", "eduroam, 58:97:1e:15:11:61, -88", "TP-Link_F946, d8:07:b6:13:f9:46, -88", "Visit-Ed, b8:3a:5a:ba:f9:a2, -91", "Visit-Ed, b8:3a:5a:bc:52:62, -63", "central, b8:3a:5a:bc:52:61, -62", "eduroam, b8:3a:5a:bc:52:60, -60", "Visit-Ed, b8:3a:5a:bb:e0:42, -91", "central, b8:3a:5a:bc:51:61, -79", "Visit-Ed, b8:3a:5a:bc:51:62, -79", "eduroam, b8:3a:5a:bc:51:60, -80", "central, b8:3a:5a:bb:a9:71, -86", "Visit-Ed, b8:3a:5a:bb:a9:72, -85", "eduroam, b8:3a:5a:bb:a9:70, -84", "Visit-Ed, b8:3a:5a:bc:51:72, -90", "central, b8:3a:5a:bc:51:71, -91" ]
+  },
+  "1,10,fj" : {
+    "magH" : 72.00818163692408,
+    "magX" : -6.5608978271484375,
+    "magY" : 30.58013916015625,
+    "magZ" : -64.86129760742188,
+    "scanResults" : [ "TP-Link_F946, d8:07:b6:13:f9:46, -54", "eduroam, 58:97:1e:15:11:61, -62", "central, 58:97:1e:15:11:60, -62", "eduroam, 58:97:1e:15:11:6e, -68", "central, c4:0a:cb:25:13:c0, -80", "eduroam, c4:0a:cb:25:13:c1, -80", "eduroam, 18:ef:63:9a:4f:d1, -80", "Mengguang, 1e:f7:12:ab:46:28, -81", "eduroam, c4:14:3c:e5:6c:0e, -86", "central, c4:14:3c:e5:6c:0f, -87" ]
+  },
+  "1,10,sanderson" : {
+    "magH" : 38.627000479141856,
+    "magX" : -4.377500057220459,
+    "magY" : -28.041250228881836,
+    "magZ" : -26.202499389648438,
+    "scanResults" : [ "Visit-Ed, b8:3a:5a:bb:5d:c2, -77", "central, b8:3a:5a:bb:5d:c1, -77", "eduroam, b8:3a:5a:bb:5d:c0, -79", "central, b8:3a:5a:bb:dd:e1, -74", "Visit-Ed, b8:3a:5a:bb:dd:e2, -77", "eduroam, b8:3a:5a:bb:dd:e0, -65", "eduroam, b8:3a:5a:bb:51:90, -88", "central, b8:3a:5a:bb:51:91, -87", "Visit-Ed, b8:3a:5a:bb:51:92, -87", "eduroam, b8:3a:5a:bb:51:80, -84", "central, b8:3a:5a:bb:51:81, -86", "Visit-Ed, b8:3a:5a:bb:51:82, -84" ]
+  },
+  "1,11,corridor_fj" : {
+    "magH" : 42.690146502424156,
+    "magX" : 13.548749923706055,
+    "magY" : -20.06624984741211,
+    "magZ" : -35.15999984741211,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:a9:60, -75", "central, b8:3a:5a:bb:a9:61, -75", "Visit-Ed, b8:3a:5a:bb:a9:62, -76", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "eduroam, c4:0a:cb:25:13:c1, -86", "central, c4:0a:cb:25:13:c0, -85", "eduroam, 58:97:1e:15:11:61, -88", "TP-Link_F946, d8:07:b6:13:f9:46, -88", "Visit-Ed, b8:3a:5a:ba:f9:a2, -91", "Visit-Ed, b8:3a:5a:bc:52:62, -63", "central, b8:3a:5a:bc:52:61, -62", "eduroam, b8:3a:5a:bc:52:60, -60", "Visit-Ed, b8:3a:5a:bb:e0:42, -91", "central, b8:3a:5a:bc:51:61, -79", "Visit-Ed, b8:3a:5a:bc:51:62, -79", "eduroam, b8:3a:5a:bc:51:60, -80", "central, b8:3a:5a:bb:a9:71, -86", "Visit-Ed, b8:3a:5a:bb:a9:72, -85", "eduroam, b8:3a:5a:bb:a9:70, -84", "Visit-Ed, b8:3a:5a:bc:51:72, -90", "central, b8:3a:5a:bc:51:71, -91" ]
+  },
+  "1,11,fj" : {
+    "magH" : 202.57775320540506,
+    "magX" : 125.909423828125,
+    "magY" : 58.319091796875,
+    "magZ" : -147.5921630859375,
+    "scanResults" : [ "TP-Link_F946, d8:07:b6:13:f9:46, -56", "central, c4:14:3c:e5:6c:00, -64", "eduroam, c4:14:3c:e5:6c:01, -64", "eduroam, 58:97:1e:15:11:6e, -69", "Mengguang, 1e:f7:12:ab:46:28, -73", "central, 58:97:1e:15:11:6f, -73", "central, 18:ef:63:9a:4f:d0, -84", "eduroam, 18:ef:63:9a:4f:d1, -84", "eduroam, c4:14:3c:e5:6c:0e, -85", "central, c4:14:3c:e5:6c:0f, -86" ]
+  },
+  "1,12,corridor_fj" : {
+    "magH" : 43.49468189923482,
+    "magX" : 16.236249923706055,
+    "magY" : -21.682498931884766,
+    "magZ" : -34.029998779296875,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:a9:60, -75", "central, b8:3a:5a:bb:a9:61, -75", "Visit-Ed, b8:3a:5a:bb:a9:62, -76", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "eduroam, c4:0a:cb:25:13:c1, -86", "central, c4:0a:cb:25:13:c0, -85", "eduroam, 58:97:1e:15:11:61, -88", "TP-Link_F946, d8:07:b6:13:f9:46, -88", "Visit-Ed, b8:3a:5a:ba:f9:a2, -91", "Visit-Ed, b8:3a:5a:bc:52:62, -63", "central, b8:3a:5a:bc:52:61, -62", "eduroam, b8:3a:5a:bc:52:60, -60", "Visit-Ed, b8:3a:5a:bb:e0:42, -91", "central, b8:3a:5a:bc:51:61, -79", "Visit-Ed, b8:3a:5a:bc:51:62, -79", "eduroam, b8:3a:5a:bc:51:60, -80", "central, b8:3a:5a:bb:a9:71, -86", "Visit-Ed, b8:3a:5a:bb:a9:72, -85", "eduroam, b8:3a:5a:bb:a9:70, -84", "Visit-Ed, b8:3a:5a:bc:51:72, -90", "central, b8:3a:5a:bc:51:71, -91" ]
+  },
+  "1,12,fj" : {
+    "magH" : 41.36128011998737,
+    "magX" : 39.38407897949219,
+    "magY" : 11.88812255859375,
+    "magZ" : 4.2804718017578125,
+    "scanResults" : [ "TP-Link_F946, d8:07:b6:13:f9:46, -60", "central, c4:14:3c:e5:6c:00, -64", "eduroam, 58:97:1e:15:11:61, -66", "central, 58:97:1e:15:11:60, -67", "eduroam, c4:14:3c:e5:6c:01, -72", "eduroam, 58:97:1e:15:11:6e, -73", "central, 58:97:1e:15:11:6f, -73", "Mengguang, 1e:f7:12:ab:46:28, -77", "central, 18:ef:63:9a:4f:d0, -80", "eduroam, 18:ef:63:9a:4f:d1, -81", "central, c4:14:3c:e5:6c:0f, -84", "eduroam, c4:14:3c:e5:6c:0e, -85" ]
+  },
+  "1,13,corridor_fj" : {
+    "magH" : 41.14309952679641,
+    "magX" : 19.112499237060547,
+    "magY" : -20.903749465942383,
+    "magZ" : -29.841249465942383,
+    "scanResults" : [ "eduroam, 18:ef:63:9a:4f:d1, -80", "central, 18:ef:63:9a:4f:d0, -80", "central, b8:be:bf:ef:4e:a0, -80", "eduroam, c4:14:3c:e5:6c:01, -83", "eduroam, 58:97:1e:15:11:61, -76", "TP-Link_F946, d8:07:b6:13:f9:46, -73", "eduroam, 58:97:1e:15:11:6e, -84", "central, 58:97:1e:15:11:6f, -84", "central, c4:14:3c:e5:6c:00, -83", "Visit-Ed, b8:3a:5a:bc:52:62, -89", "central, 18:ef:63:9a:4f:df, -88", "central, 58:97:1e:15:11:60, -75" ]
+  },
+  "1,2,corridor_fj" : {
+    "magH" : 48.387302618429764,
+    "magX" : 5.171249866485596,
+    "magY" : -32.193748474121094,
+    "magZ" : -35.75124740600586,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -73", "eduroam, b8:be:bf:ef:4e:a1, -79", "central, b8:be:bf:ef:4e:a0, -78", "central, c4:0a:cb:25:13:c0, -69", "TP-Link_F946, d8:07:b6:13:f9:46, -93", "eduroam, 5c:50:15:72:c5:c1, -64", "central, 5c:50:15:72:c5:c0, -61", "central, c4:0a:cb:2c:d2:9f, -77", "eduroam, c4:0a:cb:2c:d2:9e, -78", "Visit-Ed, b8:3a:5a:bb:dd:e2, -91", "central, 00:3a:7d:a2:97:60, -84", "Visit-Ed, b8:3a:5a:bc:52:62, -81", "central, 00:35:1a:5b:67:c0, -85", "central, 00:3a:7d:a2:97:6f, -90", "eduroam, 54:78:1a:73:a2:6e, -80", "central, 54:78:1a:73:a2:6f, -79", "central, c4:0a:cb:25:13:cf, -79", "eduroam, c4:0a:cb:25:13:ce, -80", "eduroam, c4:0a:cb:2c:d2:91, -75", "central, c4:0a:cb:2c:d2:90, -67", "eduroam, b8:be:bf:ef:4e:ae, -84" ]
+  },
+  "1,2,tlg" : {
+    "magH" : 35.769193178824466,
+    "magX" : 9.804999351501465,
+    "magY" : 2.403749942779541,
+    "magZ" : -34.314998626708984,
+    "scanResults" : [ "central, 54:78:1a:21:3b:cf, -87", "eduroam, 54:78:1a:21:3b:ce, -84", ", 7a:05:ab:10:2c:db, -88", "central, 54:78:1a:21:3b:c0, -78", "eduroam, 54:78:1a:21:3b:c1, -78", "eduroam, 58:97:1e:14:75:51, -71", "eduroam, 34:a8:4e:fd:68:ee, -83", "central, 34:a8:4e:fd:68:ef, -83", "central, 6c:99:89:0d:91:4f, -65", "eduroam, 6c:99:89:0d:91:4e, -64", "Galaxy S20 5Gceb8, 1e:c5:f5:81:d3:7c, -89", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -81", "central, 58:97:1e:15:11:60, -84", "Visit-Ed, b8:3a:5a:bc:3d:42, -87", "eduroam, 6c:99:89:0d:91:41, -61" ]
+  },
+  "1,3,corridor_fj" : {
+    "magH" : 49.723220748867675,
+    "magX" : -6.179999828338623,
+    "magY" : -28.814998626708984,
+    "magZ" : -40.04874801635742,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -73", "eduroam, b8:be:bf:ef:4e:a1, -79", "central, b8:be:bf:ef:4e:a0, -78", "central, c4:0a:cb:25:13:c0, -69", "TP-Link_F946, d8:07:b6:13:f9:46, -93", "eduroam, 5c:50:15:72:c5:c1, -64", "central, 5c:50:15:72:c5:c0, -61", "central, c4:0a:cb:2c:d2:9f, -77", "eduroam, c4:0a:cb:2c:d2:9e, -78", "Visit-Ed, b8:3a:5a:bb:dd:e2, -91", "central, 00:3a:7d:a2:97:60, -84", "Visit-Ed, b8:3a:5a:bc:52:62, -81", "central, 00:35:1a:5b:67:c0, -85", "central, 00:3a:7d:a2:97:6f, -90", "eduroam, 54:78:1a:73:a2:6e, -80", "central, 54:78:1a:73:a2:6f, -79", "central, c4:0a:cb:25:13:cf, -79", "eduroam, c4:0a:cb:25:13:ce, -80", "eduroam, c4:0a:cb:2c:d2:91, -75", "central, c4:0a:cb:2c:d2:90, -67", "eduroam, b8:be:bf:ef:4e:ae, -84" ]
+  },
+  "1,4,corridor_fj" : {
+    "magH" : 41.00062821069788,
+    "magX" : 17.376249313354492,
+    "magY" : -18.329999923706055,
+    "magZ" : -32.29750061035156,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -73", "eduroam, b8:be:bf:ef:4e:a1, -79", "central, b8:be:bf:ef:4e:a0, -78", "central, c4:0a:cb:25:13:c0, -69", "TP-Link_F946, d8:07:b6:13:f9:46, -93", "eduroam, 5c:50:15:72:c5:c1, -64", "central, 5c:50:15:72:c5:c0, -61", "central, c4:0a:cb:2c:d2:9f, -77", "eduroam, c4:0a:cb:2c:d2:9e, -78", "Visit-Ed, b8:3a:5a:bb:dd:e2, -91", "central, 00:3a:7d:a2:97:60, -84", "Visit-Ed, b8:3a:5a:bc:52:62, -81", "central, 00:35:1a:5b:67:c0, -85", "central, 00:3a:7d:a2:97:6f, -90", "eduroam, 54:78:1a:73:a2:6e, -80", "central, 54:78:1a:73:a2:6f, -79", "central, c4:0a:cb:25:13:cf, -79", "eduroam, c4:0a:cb:25:13:ce, -80", "eduroam, c4:0a:cb:2c:d2:91, -75", "central, c4:0a:cb:2c:d2:90, -67", "eduroam, b8:be:bf:ef:4e:ae, -84" ]
+  },
+  "1,5,corridor_fj" : {
+    "magH" : 44.820758478912424,
+    "magX" : 20.39875030517578,
+    "magY" : -26.681249618530273,
+    "magZ" : -29.67999839782715,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -73", "eduroam, b8:be:bf:ef:4e:a1, -79", "central, b8:be:bf:ef:4e:a0, -78", "central, c4:0a:cb:25:13:c0, -69", "TP-Link_F946, d8:07:b6:13:f9:46, -93", "eduroam, 5c:50:15:72:c5:c1, -64", "central, 5c:50:15:72:c5:c0, -61", "central, c4:0a:cb:2c:d2:9f, -77", "eduroam, c4:0a:cb:2c:d2:9e, -78", "Visit-Ed, b8:3a:5a:bb:dd:e2, -91", "central, 00:3a:7d:a2:97:60, -84", "Visit-Ed, b8:3a:5a:bc:52:62, -81", "central, 00:35:1a:5b:67:c0, -85", "central, 00:3a:7d:a2:97:6f, -90", "eduroam, 54:78:1a:73:a2:6e, -80", "central, 54:78:1a:73:a2:6f, -79", "central, c4:0a:cb:25:13:cf, -79", "eduroam, c4:0a:cb:25:13:ce, -80", "eduroam, c4:0a:cb:2c:d2:91, -75", "central, c4:0a:cb:2c:d2:90, -67", "eduroam, b8:be:bf:ef:4e:ae, -84" ]
+  },
+  "1,6,corridor_fj" : {
+    "magH" : 41.823974859485496,
+    "magX" : 14.07249927520752,
+    "magY" : -22.5674991607666,
+    "magZ" : -32.27874755859375,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:a9:60, -75", "central, b8:3a:5a:bb:a9:61, -75", "Visit-Ed, b8:3a:5a:bb:a9:62, -76", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "eduroam, c4:0a:cb:25:13:c1, -86", "central, c4:0a:cb:25:13:c0, -85", "eduroam, 58:97:1e:15:11:61, -88", "TP-Link_F946, d8:07:b6:13:f9:46, -88", "Visit-Ed, b8:3a:5a:ba:f9:a2, -91", "Visit-Ed, b8:3a:5a:bc:52:62, -63", "central, b8:3a:5a:bc:52:61, -62", "eduroam, b8:3a:5a:bc:52:60, -60", "Visit-Ed, b8:3a:5a:bb:e0:42, -91", "central, b8:3a:5a:bc:51:61, -79", "Visit-Ed, b8:3a:5a:bc:51:62, -79", "eduroam, b8:3a:5a:bc:51:60, -80", "central, b8:3a:5a:bb:a9:71, -86", "Visit-Ed, b8:3a:5a:bb:a9:72, -85", "eduroam, b8:3a:5a:bb:a9:70, -84", "Visit-Ed, b8:3a:5a:bc:51:72, -90", "central, b8:3a:5a:bc:51:71, -91" ]
+  },
+  "1,7,corridor_fj" : {
+    "magH" : 40.51030232825426,
+    "magX" : 14.137499809265137,
+    "magY" : -20.174999237060547,
+    "magZ" : -32.158748626708984,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:a9:60, -75", "central, b8:3a:5a:bb:a9:61, -75", "Visit-Ed, b8:3a:5a:bb:a9:62, -76", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "eduroam, c4:0a:cb:25:13:c1, -86", "central, c4:0a:cb:25:13:c0, -85", "eduroam, 58:97:1e:15:11:61, -88", "TP-Link_F946, d8:07:b6:13:f9:46, -88", "Visit-Ed, b8:3a:5a:ba:f9:a2, -91", "Visit-Ed, b8:3a:5a:bc:52:62, -63", "central, b8:3a:5a:bc:52:61, -62", "eduroam, b8:3a:5a:bc:52:60, -60", "Visit-Ed, b8:3a:5a:bb:e0:42, -91", "central, b8:3a:5a:bc:51:61, -79", "Visit-Ed, b8:3a:5a:bc:51:62, -79", "eduroam, b8:3a:5a:bc:51:60, -80", "central, b8:3a:5a:bb:a9:71, -86", "Visit-Ed, b8:3a:5a:bb:a9:72, -85", "eduroam, b8:3a:5a:bb:a9:70, -84", "Visit-Ed, b8:3a:5a:bc:51:72, -90", "central, b8:3a:5a:bc:51:71, -91" ]
+  },
+  "1,8,corridor_fj" : {
+    "magH" : 44.03734044553128,
+    "magX" : 11.81624984741211,
+    "magY" : -19.931249618530273,
+    "magZ" : -37.44874954223633,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:a9:60, -75", "central, b8:3a:5a:bb:a9:61, -75", "Visit-Ed, b8:3a:5a:bb:a9:62, -76", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "eduroam, c4:0a:cb:25:13:c1, -86", "central, c4:0a:cb:25:13:c0, -85", "eduroam, 58:97:1e:15:11:61, -88", "TP-Link_F946, d8:07:b6:13:f9:46, -88", "Visit-Ed, b8:3a:5a:ba:f9:a2, -91", "Visit-Ed, b8:3a:5a:bc:52:62, -63", "central, b8:3a:5a:bc:52:61, -62", "eduroam, b8:3a:5a:bc:52:60, -60", "Visit-Ed, b8:3a:5a:bb:e0:42, -91", "central, b8:3a:5a:bc:51:61, -79", "Visit-Ed, b8:3a:5a:bc:51:62, -79", "eduroam, b8:3a:5a:bc:51:60, -80", "central, b8:3a:5a:bb:a9:71, -86", "Visit-Ed, b8:3a:5a:bb:a9:72, -85", "eduroam, b8:3a:5a:bb:a9:70, -84", "Visit-Ed, b8:3a:5a:bc:51:72, -90", "central, b8:3a:5a:bc:51:71, -91" ]
+  },
+  "1,9,corridor_fj" : {
+    "magH" : 42.83646968140144,
+    "magX" : 14.557499885559082,
+    "magY" : -19.548749923706055,
+    "magZ" : -35.22624969482422,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:a9:60, -75", "central, b8:3a:5a:bb:a9:61, -75", "Visit-Ed, b8:3a:5a:bb:a9:62, -76", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "eduroam, c4:0a:cb:25:13:c1, -86", "central, c4:0a:cb:25:13:c0, -85", "eduroam, 58:97:1e:15:11:61, -88", "TP-Link_F946, d8:07:b6:13:f9:46, -88", "Visit-Ed, b8:3a:5a:ba:f9:a2, -91", "Visit-Ed, b8:3a:5a:bc:52:62, -63", "central, b8:3a:5a:bc:52:61, -62", "eduroam, b8:3a:5a:bc:52:60, -60", "Visit-Ed, b8:3a:5a:bb:e0:42, -91", "central, b8:3a:5a:bc:51:61, -79", "Visit-Ed, b8:3a:5a:bc:51:62, -79", "eduroam, b8:3a:5a:bc:51:60, -80", "central, b8:3a:5a:bb:a9:71, -86", "Visit-Ed, b8:3a:5a:bb:a9:72, -85", "eduroam, b8:3a:5a:bb:a9:70, -84", "Visit-Ed, b8:3a:5a:bc:51:72, -90", "central, b8:3a:5a:bc:51:71, -91" ]
+  },
+  "10,0,corridor_sanderson" : {
+    "magH" : 41.6084684702225,
+    "magX" : 3.182499885559082,
+    "magY" : 4.269999980926514,
+    "magZ" : -41.26625061035156,
+    "scanResults" : [ "central, 54:78:1a:73:a2:60, -84", "eduroam, b8:be:bf:ef:1b:e1, -79", "central, b8:be:bf:ef:1b:e0, -78", "BTWi-fi, 7a:ce:da:80:fd:90, -92", "eduroam, b8:3a:5a:bb:6c:80, -87", "eduroam, b8:3a:5a:bb:ae:a0, -85", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "central, b8:3a:5a:bb:6c:81, -89", "eduroam, c4:0a:cb:25:13:c1, -81", "Visit-Ed, b8:3a:5a:bb:dd:f2, -85", "eduroam, b8:3a:5a:bb:dd:f0, -87", "central, b8:3a:5a:bb:dd:f1, -86", "eduroam, 58:97:1e:15:11:6e, -87", "central, 58:97:1e:15:11:6f, -85", "eduroam, b8:3a:5a:bb:dd:e0, -82", "eduroam, 34:a8:4e:fd:68:ee, -88", "central, 24:01:c7:f7:7f:1f, -88", "central, 34:db:fd:97:fd:40, -87", "eduroam, 24:01:c7:f7:7f:1e, -90", "central, b8:3a:5a:bb:08:e1, -89", "BT-5JATZ8, a4:ce:da:80:fd:97, -90", "eduroam, b8:be:bf:ef:1b:ee, -86", "central, 58:97:1e:14:16:10, -86", "central, b8:be:bf:ef:1b:ef, -83", "eduroam, 54:78:1a:73:a2:6e, -89", "central, b8:3a:5a:bb:51:91, -91", "Visit-Ed, b8:3a:5a:bb:51:92, -90", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, 34:db:fd:97:fd:4e, -89", "central, bc:9f:e4:e8:10:c2, -89", "central, 34:db:fd:97:fd:4f, -88", "eduroam, c4:0a:cb:25:13:ce, -83", "eduroam, b8:3a:5a:bb:ae:b0, -88", "central, b8:3a:5a:bb:ae:b1, -88", "Visit-Ed, b8:3a:5a:bb:ae:b2, -88", "eduroam, b8:3a:5a:bb:51:80, -89", "central, b8:3a:5a:bb:51:81, -93", "Visit-Ed, b8:3a:5a:bb:51:82, -93" ]
+  },
+  "10,0,tlg" : {
+    "magH" : 31.62257587053117,
+    "magX" : 13.282499313354492,
+    "magY" : -13.196249961853027,
+    "magZ" : -25.483749389648438,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "central, 34:a8:4e:fd:68:e0, -80", "midea_15_0595, 70:86:ce:82:53:9f, -77", "central, 54:78:1a:21:3b:cf, -71", "eduroam, 54:78:1a:21:3b:ce, -70", ", 7a:05:ab:10:2c:db, -86", "central, 54:78:1a:21:3b:c0, -69", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -74", "central, 34:a8:4e:fd:68:ef, -73", "central, 6c:99:89:0d:91:4f, -57", "eduroam, 6c:99:89:0d:91:4e, -56", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -86", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -72", "central, b8:3a:5a:bb:64:61, -69", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "eduroam, 6c:99:89:0d:91:41, -50", "FilipiPhone, a2:7e:0a:5e:2a:11, -79" ]
+  },
+  "10,1,tlg" : {
+    "magH" : 36.42030475754991,
+    "magX" : -6.81374979019165,
+    "magY" : -31.142499923706055,
+    "magZ" : -17.611249923706055,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "central, 34:a8:4e:fd:68:e0, -80", "midea_15_0595, 70:86:ce:82:53:9f, -77", "central, 54:78:1a:21:3b:cf, -71", "eduroam, 54:78:1a:21:3b:ce, -70", ", 7a:05:ab:10:2c:db, -86", "central, 54:78:1a:21:3b:c0, -69", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -74", "central, 34:a8:4e:fd:68:ef, -73", "central, 6c:99:89:0d:91:4f, -57", "eduroam, 6c:99:89:0d:91:4e, -56", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -86", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -72", "central, b8:3a:5a:bb:64:61, -69", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "eduroam, 6c:99:89:0d:91:41, -50", "FilipiPhone, a2:7e:0a:5e:2a:11, -79" ]
+  },
+  "10,10,fj" : {
+    "magH" : 24.320130550636442,
+    "magX" : -12.056350708007812,
+    "magY" : -14.392852783203125,
+    "magZ" : 15.458297729492188,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -47", "central, 58:97:1e:15:11:60, -47", "eduroam, 58:97:1e:15:11:6e, -51", "central, 58:97:1e:15:11:6f, -57", "eduroam, 58:97:1e:14:75:51, -66", "central, 58:97:1e:14:75:50, -67", "wormzer, b6:ed:84:07:01:75, -71", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -72", "central, 34:a8:4e:fd:68:ef, -81", "eduroam, 58:97:1e:14:75:5e, -82", "central, 58:97:1e:14:75:5f, -82", "eduroam, 34:a8:4e:fd:68:ee, -82", "eduroam, 54:78:1a:73:a2:6e, -92", "central, 54:78:1a:73:a2:6f, -93" ]
+  },
+  "10,10,sanderson" : {
+    "magH" : 42.53890682363617,
+    "magX" : -6.777499675750732,
+    "magY" : -34.07500076293945,
+    "magZ" : -24.546249389648438,
+    "scanResults" : [ "eduroam, b8:3a:5a:ba:86:20, -81", "eduroam, b8:3a:5a:bb:2c:80, -74", "Visit-Ed, b8:3a:5a:bb:2c:82, -79" ]
+  },
+  "10,2,tlg" : {
+    "magH" : 32.875956126186466,
+    "magX" : 9.146249771118164,
+    "magY" : -29.287498474121094,
+    "magZ" : -11.807499885559082,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "central, 34:a8:4e:fd:68:e0, -80", "midea_15_0595, 70:86:ce:82:53:9f, -77", "central, 54:78:1a:21:3b:cf, -71", "eduroam, 54:78:1a:21:3b:ce, -70", ", 7a:05:ab:10:2c:db, -86", "central, 54:78:1a:21:3b:c0, -69", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -74", "central, 34:a8:4e:fd:68:ef, -73", "central, 6c:99:89:0d:91:4f, -57", "eduroam, 6c:99:89:0d:91:4e, -56", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -86", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -72", "central, b8:3a:5a:bb:64:61, -69", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "eduroam, 6c:99:89:0d:91:41, -50", "FilipiPhone, a2:7e:0a:5e:2a:11, -79" ]
+  },
+  "11,0,corridor_sanderson" : {
+    "magH" : 37.022581066007035,
+    "magX" : 17.24625015258789,
+    "magY" : 4.569999694824219,
+    "magZ" : -32.439998626708984,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -84", "Visit-Ed, bc:9f:e4:e8:10:d1, -88", "central, bc:9f:e4:e8:10:d2, -88", "eduroam, 24:01:c7:f7:7f:11, -88", "eduroam, b8:be:bf:ef:1b:e1, -81", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "central, b8:3a:5a:bb:6c:81, -87", "central, c4:0a:cb:25:13:c0, -80", "Visit-Ed, b8:3a:5a:bb:dd:f2, -81", "eduroam, b8:3a:5a:bb:dd:f0, -81", "central, b8:3a:5a:bb:dd:f1, -82", "Visit-Ed, b8:3a:5a:bb:5d:c2, -90", "eduroam, b8:3a:5a:bb:5d:c0, -86", "eduroam, 58:97:1e:15:11:6e, -82", "central, 58:97:1e:15:11:6f, -81", "central, b8:3a:5a:bb:dd:e1, -86", "Visit-Ed, b8:3a:5a:bb:dd:e2, -85", "eduroam, b8:3a:5a:bb:dd:e0, -81", "eduroam, b8:be:bf:ef:1b:ee, -85", "central, c4:0a:cb:25:13:cf, -89", "central, 58:97:1e:15:11:60, -84", ", ee:6c:9a:25:7f:3d, -88" ]
+  },
+  "11,10,fj" : {
+    "magH" : 711.9976957476758,
+    "magX" : -577.6580810546875,
+    "magY" : -314.02587890625,
+    "magZ" : -273.2025146484375,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -47", "central, 58:97:1e:15:11:60, -47", "eduroam, 58:97:1e:15:11:6e, -51", "central, 58:97:1e:15:11:6f, -57", "eduroam, 58:97:1e:14:75:51, -66", "central, 58:97:1e:14:75:50, -67", "wormzer, b6:ed:84:07:01:75, -71", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -72", "central, 34:a8:4e:fd:68:ef, -81", "eduroam, 58:97:1e:14:75:5e, -82", "central, 58:97:1e:14:75:5f, -82", "eduroam, 34:a8:4e:fd:68:ee, -82", "eduroam, 54:78:1a:73:a2:6e, -92", "central, 54:78:1a:73:a2:6f, -93" ]
+  },
+  "11,10,sanderson" : {
+    "magH" : 42.11849970711356,
+    "magX" : -7.548749923706055,
+    "magY" : -29.34749984741211,
+    "magZ" : -29.252498626708984,
+    "scanResults" : [ "eduroam, b8:3a:5a:ba:86:20, -81", "eduroam, b8:3a:5a:bb:2c:80, -74", "Visit-Ed, b8:3a:5a:bb:2c:82, -79" ]
+  },
+  "12,0,corridor_sanderson" : {
+    "magH" : 36.317733728897856,
+    "magX" : 11.788749694824219,
+    "magY" : 2.6987500190734863,
+    "magZ" : -34.244998931884766,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -84", "Visit-Ed, bc:9f:e4:e8:10:d1, -88", "central, bc:9f:e4:e8:10:d2, -88", "eduroam, 24:01:c7:f7:7f:11, -88", "eduroam, b8:be:bf:ef:1b:e1, -81", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "central, b8:3a:5a:bb:6c:81, -87", "central, c4:0a:cb:25:13:c0, -80", "Visit-Ed, b8:3a:5a:bb:dd:f2, -81", "eduroam, b8:3a:5a:bb:dd:f0, -81", "central, b8:3a:5a:bb:dd:f1, -82", "Visit-Ed, b8:3a:5a:bb:5d:c2, -90", "eduroam, b8:3a:5a:bb:5d:c0, -86", "eduroam, 58:97:1e:15:11:6e, -82", "central, 58:97:1e:15:11:6f, -81", "central, b8:3a:5a:bb:dd:e1, -86", "Visit-Ed, b8:3a:5a:bb:dd:e2, -85", "eduroam, b8:3a:5a:bb:dd:e0, -81", "eduroam, b8:be:bf:ef:1b:ee, -85", "central, c4:0a:cb:25:13:cf, -89", "central, 58:97:1e:15:11:60, -84", ", ee:6c:9a:25:7f:3d, -88" ]
+  },
+  "12,10,fj" : {
+    "magH" : 675.052405373094,
+    "magX" : -513.0958251953125,
+    "magY" : -194.77081298828125,
+    "magZ" : -393.05572509765625,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -47", "central, 58:97:1e:15:11:60, -47", "eduroam, 58:97:1e:15:11:6e, -51", "central, 58:97:1e:15:11:6f, -57", "eduroam, 58:97:1e:14:75:51, -66", "central, 58:97:1e:14:75:50, -67", "wormzer, b6:ed:84:07:01:75, -71", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -72", "central, 34:a8:4e:fd:68:ef, -81", "eduroam, 58:97:1e:14:75:5e, -82", "central, 58:97:1e:14:75:5f, -82", "eduroam, 34:a8:4e:fd:68:ee, -82", "eduroam, 54:78:1a:73:a2:6e, -92", "central, 54:78:1a:73:a2:6f, -93" ]
+  },
+  "12,10,sanderson" : {
+    "magH" : 42.36803385771813,
+    "magX" : -11.75999927520752,
+    "magY" : -29.327499389648438,
+    "magZ" : -28.224998474121094,
+    "scanResults" : [ "eduroam, b8:3a:5a:ba:86:20, -81", "eduroam, b8:3a:5a:bb:2c:80, -74", "Visit-Ed, b8:3a:5a:bb:2c:82, -79" ]
+  },
+  "13,0,corridor_sanderson" : {
+    "magH" : 34.39370762252069,
+    "magX" : -8.123749732971191,
+    "magY" : 5.931250095367432,
+    "magZ" : -32.88999938964844,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -84", "Visit-Ed, bc:9f:e4:e8:10:d1, -88", "central, bc:9f:e4:e8:10:d2, -88", "eduroam, 24:01:c7:f7:7f:11, -88", "eduroam, b8:be:bf:ef:1b:e1, -81", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "central, b8:3a:5a:bb:6c:81, -87", "central, c4:0a:cb:25:13:c0, -80", "Visit-Ed, b8:3a:5a:bb:dd:f2, -81", "eduroam, b8:3a:5a:bb:dd:f0, -81", "central, b8:3a:5a:bb:dd:f1, -82", "Visit-Ed, b8:3a:5a:bb:5d:c2, -90", "eduroam, b8:3a:5a:bb:5d:c0, -86", "eduroam, 58:97:1e:15:11:6e, -82", "central, 58:97:1e:15:11:6f, -81", "central, b8:3a:5a:bb:dd:e1, -86", "Visit-Ed, b8:3a:5a:bb:dd:e2, -85", "eduroam, b8:3a:5a:bb:dd:e0, -81", "eduroam, b8:be:bf:ef:1b:ee, -85", "central, c4:0a:cb:25:13:cf, -89", "central, 58:97:1e:15:11:60, -84", ", ee:6c:9a:25:7f:3d, -88" ]
+  },
+  "13,10,fj" : {
+    "magH" : 349.26212398426486,
+    "magX" : -242.56629943847656,
+    "magY" : -160.0971221923828,
+    "magZ" : -193.68667602539062,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -47", "central, 58:97:1e:15:11:60, -47", "eduroam, 58:97:1e:15:11:6e, -51", "central, 58:97:1e:15:11:6f, -57", "eduroam, 58:97:1e:14:75:51, -66", "central, 58:97:1e:14:75:50, -67", "wormzer, b6:ed:84:07:01:75, -71", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -72", "central, 34:a8:4e:fd:68:ef, -81", "eduroam, 58:97:1e:14:75:5e, -82", "central, 58:97:1e:14:75:5f, -82", "eduroam, 34:a8:4e:fd:68:ee, -82", "eduroam, 54:78:1a:73:a2:6e, -92", "central, 54:78:1a:73:a2:6f, -93" ]
+  },
+  "13,10,sanderson" : {
+    "magH" : 40.844222214179204,
+    "magX" : -11.992499351501465,
+    "magY" : -27.689998626708984,
+    "magZ" : -27.526248931884766,
+    "scanResults" : [ "Innspace, 00:ad:24:59:bd:40, -86", "central, b8:3a:5a:bb:2c:91, -81", "eduroam, b8:3a:5a:bb:2c:90, -81", "Visit-Ed, b8:3a:5a:bb:2c:92, -82", "central, b8:3a:5a:ba:8b:61, -90", "Visit-Ed, b8:3a:5a:ba:8b:62, -90", "Visit-Ed, b8:3a:5a:bb:2c:82, -89" ]
+  },
+  "14,1,sanderson" : {
+    "magH" : 46.68954197760056,
+    "magX" : 16.09749984741211,
+    "magY" : -33.62874984741211,
+    "magZ" : -28.104999542236328,
+    "scanResults" : [ "DIRECT-68-HP ENVY 5000 series, f6:39:09:fb:f6:68, -92", "eduroam, b8:3a:5a:bc:1e:f0, -90", "central, 04:da:d2:28:60:a0, -86", "central, b8:3a:5a:bc:1e:e1, -89", "BTWholeHome-RMG, ec:6c:9a:25:7f:3e, -87", ", ee:6c:9a:25:7f:3e, -88" ]
+  },
+  "14,10,fj" : {
+    "magH" : 513.7630168667262,
+    "magX" : -300.8480224609375,
+    "magY" : -239.4073486328125,
+    "magZ" : -340.774169921875,
+    "scanResults" : [ "central, 58:97:1e:15:11:60, -55", "eduroam, 58:97:1e:15:11:61, -56", "central, 58:97:1e:15:11:6f, -58", "eduroam, 58:97:1e:15:11:6e, -60", "eduroam, 58:97:1e:14:75:51, -63", "central, 58:97:1e:14:75:50, -64", "central, 58:97:1e:14:75:5f, -77", "eduroam, 58:97:1e:14:75:5e, -79", "eduroam, 34:a8:4e:fd:68:ee, -83", "eduroam, c4:0a:cb:25:13:c1, -84" ]
+  },
+  "14,10,sanderson" : {
+    "magH" : 40.290925064809876,
+    "magX" : 6.25,
+    "magY" : -30.528749465942383,
+    "magZ" : -25.53999900817871,
+    "scanResults" : [ "central, b8:3a:5a:ba:6f:61, -90", "Visit-Ed, b8:3a:5a:ba:6f:62, -89", "wormzer, b6:ed:84:07:01:75, -75", "DIRECT-68-HP ENVY 5000 series, f6:39:09:fb:f6:68, -71", "eduroam, b8:3a:5a:ba:8b:60, -84" ]
+  },
+  "14,4,sanderson" : {
+    "magH" : 45.2988610939199,
+    "magX" : 17.22749900817871,
+    "magY" : -26.90999984741211,
+    "magZ" : -32.11000061035156,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -61", "Visit-Ed, b8:3a:5a:bb:ec:e2, -63", "central, b8:3a:5a:ba:60:61, -72", "central, b8:3a:5a:bb:ec:e1, -62", "eduroam, b8:3a:5a:ba:69:a0, -69", "central, b8:3a:5a:ba:69:a1, -68", "central, b8:3a:5a:bc:1e:f1, -83", "eduroam, b8:3a:5a:bc:1e:f0, -83", "Visit-Ed, b8:3a:5a:bc:1e:e2, -74", "central, b8:3a:5a:bb:ec:f1, -71", "eduroam, b8:3a:5a:bb:ec:f0, -71", "Visit-Ed, b8:3a:5a:bb:ec:f2, -70", "eduroam, b8:3a:5a:ba:6e:c0, -85" ]
+  },
+  "14,5,sanderson" : {
+    "magH" : 45.70352029743579,
+    "magX" : 16.604999542236328,
+    "magY" : -29.369998931884766,
+    "magZ" : -30.829999923706055,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -67", "Visit-Ed, b8:3a:5a:bb:ec:e2, -62", "central, b8:3a:5a:bb:ec:e1, -63", "eduroam, b8:3a:5a:ba:69:a0, -72", "central, b8:3a:5a:ba:69:a1, -73", "Innspace, 00:ad:24:59:bd:40, -80", "eduroam, b8:3a:5a:ba:60:70, -76", "central, b8:3a:5a:ba:60:71, -76", "Visit-Ed, b8:3a:5a:ba:60:72, -76", "eduroam, b8:3a:5a:ba:69:00, -83", "eduroam, b8:3a:5a:ba:69:b0, -69", "central, b8:3a:5a:ba:69:b1, -71", "Visit-Ed, b8:3a:5a:ba:69:b2, -70" ]
+  },
+  "14,6,sanderson" : {
+    "magH" : 43.41327308869302,
+    "magX" : 15.017499923706055,
+    "magY" : -28.704999923706055,
+    "magZ" : -28.899999618530273,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -73", "Visit-Ed, b8:3a:5a:bb:ec:e2, -68", "central, b8:3a:5a:bb:ec:e1, -68", "eduroam, b8:3a:5a:ba:69:a0, -77", "central, b8:3a:5a:ba:69:a1, -75", "Innspace, 00:ad:24:59:bd:40, -61", "Visit-Ed, b8:3a:5a:bc:1e:e2, -74", "central, b8:3a:5a:bc:1e:e1, -73", "central, b8:3a:5a:ba:60:71, -72", "Visit-Ed, b8:3a:5a:ba:60:72, -72", "eduroam, b8:3a:5a:ba:69:b0, -84", "central, b8:3a:5a:ba:69:b1, -84", "Visit-Ed, b8:3a:5a:ba:69:b2, -83" ]
+  },
+  "14,7,sanderson" : {
+    "magH" : 38.91842492738015,
+    "magX" : 10.856249809265137,
+    "magY" : -25.292499542236328,
+    "magZ" : -27.514999389648438,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -73", "Visit-Ed, b8:3a:5a:bb:ec:e2, -68", "central, b8:3a:5a:bb:ec:e1, -68", "eduroam, b8:3a:5a:ba:69:a0, -77", "central, b8:3a:5a:ba:69:a1, -75", "Innspace, 00:ad:24:59:bd:40, -61", "Visit-Ed, b8:3a:5a:bc:1e:e2, -74", "central, b8:3a:5a:bc:1e:e1, -73", "central, b8:3a:5a:ba:60:71, -72", "Visit-Ed, b8:3a:5a:ba:60:72, -72", "eduroam, b8:3a:5a:ba:69:b0, -84", "central, b8:3a:5a:ba:69:b1, -84", "Visit-Ed, b8:3a:5a:ba:69:b2, -83" ]
+  },
+  "14,8,sanderson" : {
+    "magH" : 36.357679510318036,
+    "magX" : 12.59999942779541,
+    "magY" : -20.778749465942383,
+    "magZ" : -27.04374885559082,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -73", "Visit-Ed, b8:3a:5a:bb:ec:e2, -68", "central, b8:3a:5a:bb:ec:e1, -68", "eduroam, b8:3a:5a:ba:69:a0, -77", "central, b8:3a:5a:ba:69:a1, -75", "Innspace, 00:ad:24:59:bd:40, -61", "Visit-Ed, b8:3a:5a:bc:1e:e2, -74", "central, b8:3a:5a:bc:1e:e1, -73", "central, b8:3a:5a:ba:60:71, -72", "Visit-Ed, b8:3a:5a:ba:60:72, -72", "eduroam, b8:3a:5a:ba:69:b0, -84", "central, b8:3a:5a:ba:69:b1, -84", "Visit-Ed, b8:3a:5a:ba:69:b2, -83" ]
+  },
+  "14,9,sanderson" : {
+    "magH" : 35.88246125045807,
+    "magX" : 12.869999885559082,
+    "magY" : -26.4112491607666,
+    "magZ" : -20.600000381469727,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -73", "Visit-Ed, b8:3a:5a:bb:ec:e2, -68", "central, b8:3a:5a:bb:ec:e1, -68", "eduroam, b8:3a:5a:ba:69:a0, -77", "central, b8:3a:5a:ba:69:a1, -75", "Innspace, 00:ad:24:59:bd:40, -61", "Visit-Ed, b8:3a:5a:bc:1e:e2, -74", "central, b8:3a:5a:bc:1e:e1, -73", "central, b8:3a:5a:ba:60:71, -72", "Visit-Ed, b8:3a:5a:ba:60:72, -72", "eduroam, b8:3a:5a:ba:69:b0, -84", "central, b8:3a:5a:ba:69:b1, -84", "Visit-Ed, b8:3a:5a:ba:69:b2, -83" ]
+  },
+  "15,1,sanderson" : {
+    "magH" : 47.01945190473699,
+    "magX" : 16.451250076293945,
+    "magY" : -31.82499885559082,
+    "magZ" : -30.452499389648438,
+    "scanResults" : [ "central, b8:3a:5a:ba:60:61, -87", "Hallhead_IOT, f4:92:bf:8b:24:e0, -85", "eduroam, b8:3a:5a:bc:1e:f0, -91", "central, 04:da:d2:28:60:a0, -84", ", f6:92:bf:9b:24:e0, -86" ]
+  },
+  "15,10,fj" : {
+    "magH" : 353.6671060121368,
+    "magX" : -194.50912475585938,
+    "magY" : -134.7881317138672,
+    "magZ" : -262.82843017578125,
+    "scanResults" : [ "central, 58:97:1e:15:11:60, -57", "eduroam, 58:97:1e:15:11:61, -60", "central, 58:97:1e:15:11:6f, -62", "eduroam, 58:97:1e:15:11:6e, -63", "eduroam, 58:97:1e:14:75:51, -64", "central, 58:97:1e:14:75:50, -64", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -81", "central, 34:a8:4e:fd:68:ef, -83", "eduroam, 34:a8:4e:fd:68:ee, -84", "TP-Link_F946, d8:07:b6:13:f9:46, -88" ]
+  },
+  "15,10,sanderson" : {
+    "magH" : 38.971525312159,
+    "magX" : -11.266249656677246,
+    "magY" : -29.006248474121094,
+    "magZ" : -23.462499618530273,
+    "scanResults" : [ "central, b8:3a:5a:ba:69:a1, -85", "Visit-Ed, b8:3a:5a:ba:69:a2, -85", "Innspace, 00:ad:24:59:bd:40, -81", "Innspace, 00:ad:24:59:bd:42, -76", "Visit-Ed, b8:3a:5a:ba:8b:62, -79", "eduroam, b8:3a:5a:ba:8b:60, -87" ]
+  },
+  "15,2,sanderson" : {
+    "magH" : 49.13465534089712,
+    "magX" : 18.26624870300293,
+    "magY" : -30.952499389648438,
+    "magZ" : -33.50374984741211,
+    "scanResults" : [ "Hallhead, f4:92:bf:8b:73:f2, -89", "Innspace, 00:ad:24:59:bd:42, -87", "eduroam, b8:3a:5a:bc:1e:f0, -83", ", f6:92:bf:9b:73:f2, -90", "Hallhead_IOT, f4:92:bf:8b:74:33, -86", "Visit-Ed, b8:3a:5a:ba:69:b2, -89" ]
+  },
+  "15,3,sanderson" : {
+    "magH" : 47.818808305251345,
+    "magX" : 21.81999969482422,
+    "magY" : -34.39875030517578,
+    "magZ" : -25.045000076293945,
+    "scanResults" : [ "Hallhead, f4:92:bf:8b:73:f2, -89", "Innspace, 00:ad:24:59:bd:42, -87", "eduroam, b8:3a:5a:bc:1e:f0, -83", ", f6:92:bf:9b:73:f2, -90", "Hallhead_IOT, f4:92:bf:8b:74:33, -86", "Visit-Ed, b8:3a:5a:ba:69:b2, -89" ]
+  },
+  "15,4,sanderson" : {
+    "magH" : 47.643317917495,
+    "magX" : 17.103750228881836,
+    "magY" : -34.17625045776367,
+    "magZ" : -28.448749542236328,
+    "scanResults" : [ "Hallhead, f4:92:bf:8b:73:f2, -89", "Innspace, 00:ad:24:59:bd:42, -87", "eduroam, b8:3a:5a:bc:1e:f0, -83", ", f6:92:bf:9b:73:f2, -90", "Hallhead_IOT, f4:92:bf:8b:74:33, -86", "Visit-Ed, b8:3a:5a:ba:69:b2, -89" ]
+  },
+  "15,5,sanderson" : {
+    "magH" : 47.41362932842992,
+    "magX" : 15.5024995803833,
+    "magY" : -30,
+    "magZ" : -33.28249740600586,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -70", "Visit-Ed, b8:3a:5a:bb:ec:e2, -70", "central, b8:3a:5a:bb:ec:e1, -71", "Innspace, 00:ad:24:59:bd:40, -66", "DIRECT-68-HP ENVY 5000 series, f6:39:09:fb:f6:68, -72", "eduroam, b8:3a:5a:bc:1e:e0, -74", "DIRECT-qVPhaser 3330, 9e:93:4e:73:de:22, -82", "central, b8:3a:5a:bb:ec:f1, -74", "eduroam, b8:3a:5a:bb:ec:f0, -74", "Visit-Ed, b8:3a:5a:bb:ec:f2, -74", "eduroam, b8:3a:5a:ba:6e:c0, -87", "central, b8:3a:5a:ba:6e:c1, -87" ]
+  },
+  "15,6,sanderson" : {
+    "magH" : 47.01631303501211,
+    "magX" : 16.292499542236328,
+    "magY" : -30.33624839782715,
+    "magZ" : -32.01250076293945,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -73", "Visit-Ed, b8:3a:5a:bb:ec:e2, -68", "central, b8:3a:5a:bb:ec:e1, -68", "eduroam, b8:3a:5a:ba:69:a0, -77", "central, b8:3a:5a:ba:69:a1, -75", "Innspace, 00:ad:24:59:bd:40, -61", "Visit-Ed, b8:3a:5a:bc:1e:e2, -74", "central, b8:3a:5a:bc:1e:e1, -73", "central, b8:3a:5a:ba:60:71, -72", "Visit-Ed, b8:3a:5a:ba:60:72, -72", "eduroam, b8:3a:5a:ba:69:b0, -84", "central, b8:3a:5a:ba:69:b1, -84", "Visit-Ed, b8:3a:5a:ba:69:b2, -83" ]
+  },
+  "16,1,sanderson" : {
+    "magH" : 47.22726490896175,
+    "magX" : 17.34749984741211,
+    "magY" : -29.8487491607666,
+    "magZ" : -32.22624969482422,
+    "scanResults" : [ "central, b8:3a:5a:bc:1e:f1, -89", "Visit-Ed, b8:3a:5a:bc:1e:f2, -92", "eduroam, b8:3a:5a:bc:1e:f0, -90", "eduroam, 04:da:d2:28:60:a1, -78", "Visit-Ed, b8:3a:5a:bc:1e:e2, -84", "eduroam, b8:3a:5a:bc:1e:e0, -82" ]
+  },
+  "16,10,fj" : {
+    "magH" : 285.95410470912987,
+    "magX" : -98.69384765625,
+    "magY" : -159.53636169433594,
+    "magZ" : -215.81802368164062,
+    "scanResults" : [ "central, 6c:99:89:0d:91:40, -64", "eduroam, 6c:99:89:0d:91:41, -65", "eduroam, 54:78:1a:73:a2:61, -68", "central, 54:78:1a:73:a2:60, -68", "eduroam, 58:97:1e:15:11:61, -68", "central, 58:97:1e:15:11:60, -69", "eduroam, 58:97:1e:15:11:6e, -79", "central, 58:97:1e:15:11:6f, -79", "central, 54:78:1a:73:a2:6f, -80", "eduroam, 54:78:1a:73:a2:6e, -80", "eduroam, 6c:99:89:0d:91:4e, -82", "central, 6c:99:89:0d:91:4f, -83", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87" ]
+  },
+  "16,10,sanderson" : {
+    "magH" : 43.34851074476565,
+    "magX" : 17.283750534057617,
+    "magY" : -28.49625015258789,
+    "magZ" : -27.71875,
+    "scanResults" : [ "central, b8:3a:5a:ba:6f:61, -85", "Visit-Ed, b8:3a:5a:ba:6f:62, -84", "eduroam, b8:3a:5a:ba:6f:60, -83", "Innspace, 00:ad:24:59:bd:40, -83", "central, b8:3a:5a:ba:8b:61, -84", "eduroam, b8:3a:5a:ba:8b:60, -81" ]
+  },
+  "16,6,sanderson" : {
+    "magH" : 48.44301631895071,
+    "magX" : 17.613750457763672,
+    "magY" : -32.49749755859375,
+    "magZ" : -31.311248779296875,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -71", "eduroam, b8:3a:5a:ba:60:60, -65", "central, b8:3a:5a:ba:60:61, -64", "Visit-Ed, b8:3a:5a:bb:ec:e2, -70", "Visit-Ed, b8:3a:5a:ba:60:62, -64", "central, b8:3a:5a:bb:ec:e1, -69", "eduroam, b8:3a:5a:ba:69:a0, -79", "central, b8:3a:5a:ba:69:a1, -81", "Innspace, 00:ad:24:59:bd:40, -70", "DIRECT-68-HP ENVY 5000 series, f6:39:09:fb:f6:68, -69", "Innspace, 00:ad:24:59:bd:42, -77", "central, b8:3a:5a:bc:1e:f1, -72", "Visit-Ed, b8:3a:5a:bc:1e:f2, -72", "eduroam, b8:3a:5a:bc:1e:f0, -72", "Visit-Ed, b8:3a:5a:bc:1e:e2, -69", "eduroam, b8:3a:5a:bc:1e:e0, -66", "central, b8:3a:5a:bc:1e:e1, -69", "eduroam, b8:3a:5a:ba:6e:d0, -86", "central, b8:3a:5a:ba:6e:d1, -85", "Visit-Ed, b8:3a:5a:ba:6e:d2, -85", "central, b8:3a:5a:bb:ec:f1, -81", "eduroam, b8:3a:5a:bb:ec:f0, -80", "Visit-Ed, b8:3a:5a:bb:ec:f2, -80" ]
+  },
+  "16,7,sanderson" : {
+    "magH" : 46.06499632821813,
+    "magX" : 18.45374870300293,
+    "magY" : -26.118749618530273,
+    "magZ" : -33.154998779296875,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -71", "eduroam, b8:3a:5a:ba:60:60, -65", "central, b8:3a:5a:ba:60:61, -64", "Visit-Ed, b8:3a:5a:bb:ec:e2, -70", "Visit-Ed, b8:3a:5a:ba:60:62, -64", "central, b8:3a:5a:bb:ec:e1, -69", "eduroam, b8:3a:5a:ba:69:a0, -79", "central, b8:3a:5a:ba:69:a1, -81", "Innspace, 00:ad:24:59:bd:40, -70", "DIRECT-68-HP ENVY 5000 series, f6:39:09:fb:f6:68, -69", "Innspace, 00:ad:24:59:bd:42, -77", "central, b8:3a:5a:bc:1e:f1, -72", "Visit-Ed, b8:3a:5a:bc:1e:f2, -72", "eduroam, b8:3a:5a:bc:1e:f0, -72", "Visit-Ed, b8:3a:5a:bc:1e:e2, -69", "eduroam, b8:3a:5a:bc:1e:e0, -66", "central, b8:3a:5a:bc:1e:e1, -69", "eduroam, b8:3a:5a:ba:6e:d0, -86", "central, b8:3a:5a:ba:6e:d1, -85", "Visit-Ed, b8:3a:5a:ba:6e:d2, -85", "central, b8:3a:5a:bb:ec:f1, -81", "eduroam, b8:3a:5a:bb:ec:f0, -80", "Visit-Ed, b8:3a:5a:bb:ec:f2, -80" ]
+  },
+  "16,8,sanderson" : {
+    "magH" : 43.15650457021224,
+    "magX" : 14.271249771118164,
+    "magY" : -27.936248779296875,
+    "magZ" : -29.63749885559082,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -76", "Visit-Ed, b8:3a:5a:bb:ec:e2, -74", "central, b8:3a:5a:bb:ec:e1, -72", "eduroam, b8:3a:5a:ba:69:a0, -82", "central, b8:3a:5a:ba:69:a1, -87", "DIRECT-68-HP ENVY 5000 series, f6:39:09:fb:f6:68, -63", "Innspace, 00:ad:24:59:bd:42, -79", "DIRECT-qVPhaser 3330, 9e:93:4e:73:de:22, -87", "central, b8:3a:5a:bb:ec:f1, -89", "eduroam, b8:3a:5a:ba:69:00, -87", "Visit-Ed, b8:3a:5a:bb:ec:f2, -90", "central, b8:3a:5a:ba:69:01, -90" ]
+  },
+  "16,9,sanderson" : {
+    "magH" : 42.65088536549901,
+    "magX" : 15.161250114440918,
+    "magY" : -32.006248474121094,
+    "magZ" : -23.76624870300293,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ec:e0, -76", "Visit-Ed, b8:3a:5a:bb:ec:e2, -74", "central, b8:3a:5a:bb:ec:e1, -72", "eduroam, b8:3a:5a:ba:69:a0, -82", "central, b8:3a:5a:ba:69:a1, -87", "DIRECT-68-HP ENVY 5000 series, f6:39:09:fb:f6:68, -63", "Innspace, 00:ad:24:59:bd:42, -79", "DIRECT-qVPhaser 3330, 9e:93:4e:73:de:22, -87", "central, b8:3a:5a:bb:ec:f1, -89", "eduroam, b8:3a:5a:ba:69:00, -87", "Visit-Ed, b8:3a:5a:bb:ec:f2, -90", "central, b8:3a:5a:ba:69:01, -90" ]
+  },
+  "17,10,fj" : {
+    "magH" : 237.72836060827913,
+    "magX" : -150.75111389160156,
+    "magY" : -162.05978393554688,
+    "magZ" : -86.74964904785156,
+    "scanResults" : [ "central, 6c:99:89:0d:91:40, -64", "eduroam, 6c:99:89:0d:91:41, -65", "eduroam, 54:78:1a:73:a2:61, -68", "central, 54:78:1a:73:a2:60, -68", "eduroam, 58:97:1e:15:11:61, -68", "central, 58:97:1e:15:11:60, -69", "eduroam, 58:97:1e:15:11:6e, -79", "central, 58:97:1e:15:11:6f, -79", "central, 54:78:1a:73:a2:6f, -80", "eduroam, 54:78:1a:73:a2:6e, -80", "eduroam, 6c:99:89:0d:91:4e, -82", "central, 6c:99:89:0d:91:4f, -83", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87" ]
+  },
+  "18,10,fj" : {
+    "magH" : 176.55254396708648,
+    "magX" : -124.5635986328125,
+    "magY" : -118.09616088867188,
+    "magZ" : -41.32804870605469,
+    "scanResults" : [ "central, 6c:99:89:0d:91:40, -64", "eduroam, 6c:99:89:0d:91:41, -65", "eduroam, 54:78:1a:73:a2:61, -68", "central, 54:78:1a:73:a2:60, -68", "eduroam, 58:97:1e:15:11:61, -68", "central, 58:97:1e:15:11:60, -69", "eduroam, 58:97:1e:15:11:6e, -79", "central, 58:97:1e:15:11:6f, -79", "central, 54:78:1a:73:a2:6f, -80", "eduroam, 54:78:1a:73:a2:6e, -80", "eduroam, 6c:99:89:0d:91:4e, -82", "central, 6c:99:89:0d:91:4f, -83", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87" ]
+  },
+  "19,10,fj" : {
+    "magH" : 154.3224860073865,
+    "magX" : -116.339111328125,
+    "magY" : -87.90855407714844,
+    "magZ" : -50.52452087402344,
+    "scanResults" : [ "central, 6c:99:89:0d:91:40, -64", "eduroam, 6c:99:89:0d:91:41, -65", "eduroam, 54:78:1a:73:a2:61, -68", "central, 54:78:1a:73:a2:60, -68", "eduroam, 58:97:1e:15:11:61, -68", "central, 58:97:1e:15:11:60, -69", "eduroam, 58:97:1e:15:11:6e, -79", "central, 58:97:1e:15:11:6f, -79", "central, 54:78:1a:73:a2:6f, -80", "eduroam, 54:78:1a:73:a2:6e, -80", "eduroam, 6c:99:89:0d:91:4e, -82", "central, 6c:99:89:0d:91:4f, -83", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87" ]
+  },
+  "2,0,corridor_sanderson" : {
+    "magH" : 39.77848361600857,
+    "magX" : 6.816249847412109,
+    "magY" : 9.168749809265137,
+    "magZ" : -38.102500915527344,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -82", "eduroam, b8:be:bf:ef:1b:e1, -69", "central, b8:be:bf:ef:1b:e0, -67", "Visit-Ed, b8:3a:5a:bb:6c:82, -91", "eduroam, c4:0a:cb:25:13:c1, -83", "Visit-Ed, b8:3a:5a:bb:dd:f2, -89", "central, b8:3a:5a:bb:dd:f1, -87", "eduroam, 34:db:fd:97:fd:41, -80", "Visit-Ed, b8:3a:5a:bb:08:e2, -92", "eduroam, b8:be:bf:ef:1b:ee, -81", "central, 58:97:1e:14:16:10, -83", "central, b8:be:bf:ef:1b:ef, -82", "central, f8:4f:57:f1:c3:50, -91", "eduroam, 54:78:1a:73:a2:6e, -85", "central, 54:78:1a:73:a2:6f, -84", "eduroam, 58:97:1e:14:75:5e, -90", "eduroam, 34:db:fd:97:fd:4e, -90", "central, 34:db:fd:97:fd:4f, -89", "central, b8:3a:5a:bb:51:81, -89", "Visit-Ed, b8:3a:5a:bb:51:82, -89" ]
+  },
+  "2,0,enginn" : {
+    "magH" : 45.483704048641144,
+    "magX" : -14.786250114440918,
+    "magY" : -29.603750228881836,
+    "magZ" : -31.204999923706055,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -78", "central, 58:97:1e:14:16:1f, -81", "central, 54:78:1a:73:a2:60, -79", "eduroam, b8:be:bf:ef:1b:e1, -65", "HANABI, 58:97:1e:14:16:1d, -81", "central, b8:be:bf:ef:1b:e0, -65", "eduroam, 58:97:1e:14:16:1e, -80", "eduroam, c4:0a:cb:25:13:c1, -77", "eduroam, 58:97:1e:15:11:61, -86", "eduroam, 5c:83:8f:d8:76:2e, -83", "DIRECT-XDDAVIDSSURFACEmsFv, ba:31:b5:86:9a:28, -78", "HANABI, 58:97:1e:14:16:12, -78", "eduroam, 34:db:fd:97:fd:41, -77", "eduroam, b8:be:bf:ef:1b:ee, -76", "central, 58:97:1e:14:16:10, -76", "eduroam, 58:97:1e:14:16:11, -74", "BTWholeHome-RMG, ec:6c:9a:25:7f:3e, -87", "central, b8:be:bf:ef:1b:ef, -77", "central, 5c:83:8f:d8:76:20, -81", "eduroam, 54:78:1a:73:a2:6e, -78", "eduroam, 34:db:fd:97:fd:4e, -70", "central, 34:db:fd:97:fd:4f, -70", "central, c4:0a:cb:25:13:cf, -85", "eduroam, c4:0a:cb:25:13:ce, -85", ", ee:6c:9a:25:7f:3e, -88" ]
+  },
+  "2,1,tlg" : {
+    "magH" : 34.399309586094894,
+    "magX" : 5.771249771118164,
+    "magY" : -2.40625,
+    "magZ" : -33.82624816894531,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "wormzer, b6:ed:84:07:01:75, -71", "eduroam, 00:1b:8f:88:9a:ee, -87", "midea_15_0595, 70:86:ce:82:53:9f, -81", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:c0, -83", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -70", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -82", "central, 6c:99:89:0d:91:4f, -69", "eduroam, 6c:99:89:0d:91:4e, -66", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -78", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "central, 6c:99:89:0d:91:40, -62", "eduroam, 6c:99:89:0d:91:41, -75" ]
+  },
+  "2,10,fj" : {
+    "magH" : 24.389851745430157,
+    "magX" : -10.953521728515625,
+    "magY" : 17.327499389648438,
+    "magZ" : -13.215255737304688,
+    "scanResults" : [ "central, c4:14:3c:e5:6c:00, -63", "eduroam, c4:14:3c:e5:6c:01, -63", "eduroam, 58:97:1e:15:11:61, -66", "central, 58:97:1e:15:11:60, -67", "central, 58:97:1e:15:11:6f, -68", "eduroam, 58:97:1e:15:11:6e, -69", "central, 18:ef:63:9a:4f:d0, -82", "eduroam, c4:14:3c:e5:6c:0e, -83", "Mengguang, 1e:f7:12:ab:46:28, -83", "central, c4:14:3c:e5:6c:0f, -83" ]
+  },
+  "2,10,sanderson" : {
+    "magH" : 40.42777395833912,
+    "magX" : -8.505000114440918,
+    "magY" : -26.2237491607666,
+    "magZ" : -29.56999969482422,
+    "scanResults" : [ "Visit-Ed, b8:3a:5a:bb:5d:c2, -77", "central, b8:3a:5a:bb:5d:c1, -77", "eduroam, b8:3a:5a:bb:5d:c0, -79", "central, b8:3a:5a:bb:dd:e1, -74", "Visit-Ed, b8:3a:5a:bb:dd:e2, -77", "eduroam, b8:3a:5a:bb:dd:e0, -65", "eduroam, b8:3a:5a:bb:51:90, -88", "central, b8:3a:5a:bb:51:91, -87", "Visit-Ed, b8:3a:5a:bb:51:92, -87", "eduroam, b8:3a:5a:bb:51:80, -84", "central, b8:3a:5a:bb:51:81, -86", "Visit-Ed, b8:3a:5a:bb:51:82, -84" ]
+  },
+  "2,2,tlg" : {
+    "magH" : 35.783723304256995,
+    "magX" : 9.176249504089355,
+    "magY" : -2.672499895095825,
+    "magZ" : -34.48374938964844,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "wormzer, b6:ed:84:07:01:75, -71", "eduroam, 00:1b:8f:88:9a:ee, -87", "midea_15_0595, 70:86:ce:82:53:9f, -81", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:c0, -83", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -70", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -82", "central, 6c:99:89:0d:91:4f, -69", "eduroam, 6c:99:89:0d:91:4e, -66", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -78", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "central, 6c:99:89:0d:91:40, -62", "eduroam, 6c:99:89:0d:91:41, -75" ]
+  },
+  "20,10,fj" : {
+    "magH" : 899.2512857927977,
+    "magX" : -852.187744140625,
+    "magY" : -232.09877014160156,
+    "magZ" : -168.99452209472656,
+    "scanResults" : [ "central, 6c:99:89:0d:91:40, -64", "eduroam, 6c:99:89:0d:91:41, -65", "eduroam, 54:78:1a:73:a2:61, -68", "central, 54:78:1a:73:a2:60, -68", "eduroam, 58:97:1e:15:11:61, -68", "central, 58:97:1e:15:11:60, -69", "eduroam, 58:97:1e:15:11:6e, -79", "central, 58:97:1e:15:11:6f, -79", "central, 54:78:1a:73:a2:6f, -80", "eduroam, 54:78:1a:73:a2:6e, -80", "eduroam, 6c:99:89:0d:91:4e, -82", "central, 6c:99:89:0d:91:4f, -83", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87" ]
+  },
+  "21,10,fj" : {
+    "magH" : 787.6223714445902,
+    "magX" : -706.9881591796875,
+    "magY" : -321.6522216796875,
+    "magZ" : -130.6011199951172,
+    "scanResults" : [ "central, 6c:99:89:0d:91:40, -64", "eduroam, 6c:99:89:0d:91:41, -65", "eduroam, 54:78:1a:73:a2:61, -68", "central, 54:78:1a:73:a2:60, -68", "eduroam, 58:97:1e:15:11:61, -68", "central, 58:97:1e:15:11:60, -69", "eduroam, 58:97:1e:15:11:6e, -79", "central, 58:97:1e:15:11:6f, -79", "central, 54:78:1a:73:a2:6f, -80", "eduroam, 54:78:1a:73:a2:6e, -80", "eduroam, 6c:99:89:0d:91:4e, -82", "central, 6c:99:89:0d:91:4f, -83", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87" ]
+  },
+  "22,10,fj" : {
+    "magH" : 785.2271168267179,
+    "magX" : -705.0628662109375,
+    "magY" : -309.18463134765625,
+    "magZ" : -154.50820922851562,
+    "scanResults" : [ "central, 6c:99:89:0d:91:40, -64", "eduroam, 6c:99:89:0d:91:41, -65", "eduroam, 54:78:1a:73:a2:61, -68", "central, 54:78:1a:73:a2:60, -68", "eduroam, 58:97:1e:15:11:61, -68", "central, 58:97:1e:15:11:60, -69", "eduroam, 58:97:1e:15:11:6e, -79", "central, 58:97:1e:15:11:6f, -79", "central, 54:78:1a:73:a2:6f, -80", "eduroam, 54:78:1a:73:a2:6e, -80", "eduroam, 6c:99:89:0d:91:4e, -82", "central, 6c:99:89:0d:91:4f, -83", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87" ]
+  },
+  "23,10,fj" : {
+    "magH" : 689.9923459720404,
+    "magX" : -480.4595947265625,
+    "magY" : -411.392578125,
+    "magZ" : -275.68853759765625,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -65", "eduroam, 58:97:1e:15:11:61, -68", "central, 6c:99:89:0d:91:40, -69", "eduroam, 6c:99:89:0d:91:41, -70", "eduroam, 58:97:1e:15:11:6e, -72", "central, 58:97:1e:14:75:50, -73", "central, 58:97:1e:15:11:6f, -77", "central, 6c:99:89:0d:91:4f, -83", "eduroam, 6c:99:89:0d:91:4e, -83", "central, 54:78:1a:73:a2:6f, -85", "eduroam, 54:78:1a:73:a2:6e, -85", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -86" ]
+  },
+  "24,10,fj" : {
+    "magH" : 621.8559419190268,
+    "magX" : -232.1735382080078,
+    "magY" : -259.68817138671875,
+    "magZ" : -515.13330078125,
+    "scanResults" : [ "central, 54:78:1a:73:a2:60, -60", "eduroam, 6c:99:89:0d:91:41, -65", "eduroam, 54:78:1a:73:a2:61, -65", "central, 6c:99:89:0d:91:40, -66", "eduroam, 54:78:1a:21:3b:c1, -67", "central, 54:78:1a:21:3b:c0, -70", "eduroam, 54:78:1a:73:a2:6e, -76", "central, 58:97:1e:14:75:50, -76", "eduroam, 58:97:1e:14:75:51, -76", "eduroam, 58:97:1e:15:11:61, -76", "central, 54:78:1a:73:a2:6f, -77", "central, 58:97:1e:15:11:60, -78", "FilipiPhone, 5e:e3:67:07:f7:8f, -81", "eduroam, 6c:99:89:0d:91:4e, -82", "central, 58:97:1e:15:11:6f, -82", "central, 6c:99:89:0d:91:4f, -83", "eduroam, b8:be:bf:ef:4e:ae, -84" ]
+  },
+  "25,10,fj" : {
+    "magH" : 549.67948047021,
+    "magX" : -228.02391052246094,
+    "magY" : -307.2593688964844,
+    "magZ" : -394.64453125,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -51", "central, 54:78:1a:73:a2:60, -52", "eduroam, 6c:99:89:0d:91:41, -60", "central, 6c:99:89:0d:91:40, -60", "central, 54:78:1a:21:3b:c0, -60", "eduroam, 54:78:1a:21:3b:c1, -64", "central, 54:78:1a:73:a2:6f, -66", "eduroam, 54:78:1a:73:a2:6e, -66", "central, 6c:99:89:0d:91:4f, -72", "eduroam, 6c:99:89:0d:91:4e, -72", "eduroam, 54:78:1a:21:3b:ce, -75", "central, 54:78:1a:21:3b:cf, -76", "eduroam, b8:be:bf:ef:4e:a1, -77", "central, 58:97:1e:14:75:50, -80", "central, 58:97:1e:14:75:5f, -89", "eduroam, 58:97:1e:14:75:5e, -91" ]
+  },
+  "26,10,fj" : {
+    "magH" : 638.9542237124659,
+    "magX" : -364.27001953125,
+    "magY" : -326.82989501953125,
+    "magZ" : -410.79443359375,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -51", "central, 54:78:1a:73:a2:60, -52", "eduroam, 6c:99:89:0d:91:41, -60", "central, 6c:99:89:0d:91:40, -60", "central, 54:78:1a:21:3b:c0, -60", "eduroam, 54:78:1a:21:3b:c1, -64", "central, 54:78:1a:73:a2:6f, -66", "eduroam, 54:78:1a:73:a2:6e, -66", "central, 6c:99:89:0d:91:4f, -72", "eduroam, 6c:99:89:0d:91:4e, -72", "eduroam, 54:78:1a:21:3b:ce, -75", "central, 54:78:1a:21:3b:cf, -76", "eduroam, b8:be:bf:ef:4e:a1, -77", "central, 58:97:1e:14:75:50, -80", "central, 58:97:1e:14:75:5f, -89", "eduroam, 58:97:1e:14:75:5e, -91" ]
+  },
+  "26,9,fj" : {
+    "magH" : 507.455124247455,
+    "magX" : -224.62196350097656,
+    "magY" : -218.4162139892578,
+    "magZ" : -399.18670654296875,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -51", "central, 54:78:1a:73:a2:60, -52", "eduroam, 6c:99:89:0d:91:41, -60", "central, 6c:99:89:0d:91:40, -60", "central, 54:78:1a:21:3b:c0, -60", "eduroam, 54:78:1a:21:3b:c1, -64", "central, 54:78:1a:73:a2:6f, -66", "eduroam, 54:78:1a:73:a2:6e, -66", "central, 6c:99:89:0d:91:4f, -72", "eduroam, 6c:99:89:0d:91:4e, -72", "eduroam, 54:78:1a:21:3b:ce, -75", "central, 54:78:1a:21:3b:cf, -76", "eduroam, b8:be:bf:ef:4e:a1, -77", "central, 58:97:1e:14:75:50, -80", "central, 58:97:1e:14:75:5f, -89", "eduroam, 58:97:1e:14:75:5e, -91" ]
+  },
+  "27,9,fj" : {
+    "magH" : 567.9509221754993,
+    "magX" : -285.146728515625,
+    "magY" : -241.07093811035156,
+    "magZ" : -427.9537353515625,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -51", "central, 54:78:1a:73:a2:60, -52", "eduroam, 6c:99:89:0d:91:41, -60", "central, 6c:99:89:0d:91:40, -60", "central, 54:78:1a:21:3b:c0, -60", "eduroam, 54:78:1a:21:3b:c1, -64", "central, 54:78:1a:73:a2:6f, -66", "eduroam, 54:78:1a:73:a2:6e, -66", "central, 6c:99:89:0d:91:4f, -72", "eduroam, 6c:99:89:0d:91:4e, -72", "eduroam, 54:78:1a:21:3b:ce, -75", "central, 54:78:1a:21:3b:cf, -76", "eduroam, b8:be:bf:ef:4e:a1, -77", "central, 58:97:1e:14:75:50, -80", "central, 58:97:1e:14:75:5f, -89", "eduroam, 58:97:1e:14:75:5e, -91" ]
+  },
+  "28,4,fj" : {
+    "magH" : 421.7474992516257,
+    "magX" : -368.1766357421875,
+    "magY" : -203.89251708984375,
+    "magZ" : 27.29034423828125,
+    "scanResults" : [ "eduroam, 6c:99:89:0d:91:41, -45", "central, 6c:99:89:0d:91:40, -49", "central, 54:78:1a:21:3b:c0, -52", "eduroam, 54:78:1a:21:3b:c1, -56", "eduroam, 54:78:1a:73:a2:61, -59", "eduroam, 54:78:1a:21:3b:ce, -60", "central, 54:78:1a:21:3b:cf, -60", "central, 6c:99:89:0d:91:4f, -61", "central, 58:97:1e:14:75:50, -77", "eduroam, 58:97:1e:14:75:51, -77", "central, 54:78:1a:73:a2:6f, -80", "eduroam, 54:78:1a:73:a2:6e, -81", "FilipiPhone, ae:ae:c6:a1:d1:95, -83" ]
+  },
+  "28,5,fj" : {
+    "magH" : 401.24713784025926,
+    "magX" : -283.1840515136719,
+    "magY" : -282.26812744140625,
+    "magZ" : -33.62693786621094,
+    "scanResults" : [ "eduroam, 6c:99:89:0d:91:41, -51", "eduroam, 54:78:1a:21:3b:c1, -53", "central, 54:78:1a:21:3b:c0, -53", "central, 6c:99:89:0d:91:40, -55", "central, 54:78:1a:73:a2:60, -61", "eduroam, 54:78:1a:73:a2:61, -62", "central, 6c:99:89:0d:91:4f, -66", "eduroam, 6c:99:89:0d:91:4e, -69", "eduroam, 54:78:1a:21:3b:ce, -70", "central, 54:78:1a:21:3b:cf, -70", "central, 54:78:1a:73:a2:6f, -79", "eduroam, 54:78:1a:73:a2:6e, -79" ]
+  },
+  "28,6,fj" : {
+    "magH" : 412.7136189296399,
+    "magX" : -292.7730712890625,
+    "magY" : -287.03460693359375,
+    "magZ" : -47.19734191894531,
+    "scanResults" : [ "eduroam, 6c:99:89:0d:91:41, -53", "central, 6c:99:89:0d:91:40, -54", "eduroam, 54:78:1a:73:a2:61, -60", "central, 54:78:1a:73:a2:60, -60", "eduroam, 54:78:1a:21:3b:c1, -63", "central, 54:78:1a:21:3b:c0, -63", "eduroam, 6c:99:89:0d:91:4e, -69", "central, 6c:99:89:0d:91:4f, -70", "eduroam, 54:78:1a:21:3b:ce, -70", "central, 54:78:1a:21:3b:cf, -70", "eduroam, 54:78:1a:73:a2:6e, -72", "central, 54:78:1a:73:a2:6f, -73", "central, 58:97:1e:14:75:5f, -89" ]
+  },
+  "28,7,fj" : {
+    "magH" : 484.9637550889757,
+    "magX" : -350.43792724609375,
+    "magY" : -263.9312744140625,
+    "magZ" : -206.69631958007812,
+    "scanResults" : [ "eduroam, 6c:99:89:0d:91:41, -56", "central, 6c:99:89:0d:91:40, -56", "eduroam, 54:78:1a:73:a2:61, -57", "central, 54:78:1a:73:a2:60, -57", "central, 54:78:1a:21:3b:c0, -64", "eduroam, 54:78:1a:21:3b:c1, -65", "central, 6c:99:89:0d:91:4f, -70", "eduroam, 6c:99:89:0d:91:4e, -70", "central, 54:78:1a:73:a2:6f, -72", "eduroam, 54:78:1a:73:a2:6e, -72", "eduroam, b8:be:bf:ef:4e:a1, -73", "eduroam, 54:78:1a:21:3b:ce, -75", "central, 54:78:1a:21:3b:cf, -75", "eduroam, 58:97:1e:14:75:5e, -89", "central, 58:97:1e:14:75:5f, -90" ]
+  },
+  "28,8,fj" : {
+    "magH" : 483.17362303834426,
+    "magX" : -168.1346893310547,
+    "magY" : -243.8373565673828,
+    "magZ" : -381.7470703125,
+    "scanResults" : [ "eduroam, 6c:99:89:0d:91:41, -56", "central, 6c:99:89:0d:91:40, -56", "eduroam, 54:78:1a:73:a2:61, -57", "central, 54:78:1a:73:a2:60, -57", "central, 54:78:1a:21:3b:c0, -64", "eduroam, 54:78:1a:21:3b:c1, -65", "central, 6c:99:89:0d:91:4f, -70", "eduroam, 6c:99:89:0d:91:4e, -70", "central, 54:78:1a:73:a2:6f, -72", "eduroam, 54:78:1a:73:a2:6e, -72", "eduroam, b8:be:bf:ef:4e:a1, -73", "eduroam, 54:78:1a:21:3b:ce, -75", "central, 54:78:1a:21:3b:cf, -75", "eduroam, 58:97:1e:14:75:5e, -89", "central, 58:97:1e:14:75:5f, -90" ]
+  },
+  "28,9,fj" : {
+    "magH" : 507.9027804363745,
+    "magX" : -239.2578125,
+    "magY" : -292.13751220703125,
+    "magZ" : -339.67132568359375,
+    "scanResults" : [ "eduroam, 6c:99:89:0d:91:41, -56", "central, 6c:99:89:0d:91:40, -56", "eduroam, 54:78:1a:73:a2:61, -57", "central, 54:78:1a:73:a2:60, -57", "central, 54:78:1a:21:3b:c0, -64", "eduroam, 54:78:1a:21:3b:c1, -65", "central, 6c:99:89:0d:91:4f, -70", "eduroam, 6c:99:89:0d:91:4e, -70", "central, 54:78:1a:73:a2:6f, -72", "eduroam, 54:78:1a:73:a2:6e, -72", "eduroam, b8:be:bf:ef:4e:a1, -73", "eduroam, 54:78:1a:21:3b:ce, -75", "central, 54:78:1a:21:3b:cf, -75", "eduroam, 58:97:1e:14:75:5e, -89", "central, 58:97:1e:14:75:5f, -90" ]
+  },
+  "3,0,corridor_sanderson" : {
+    "magH" : 32.74288933123973,
+    "magX" : 4.37624979019165,
+    "magY" : 3.3450000286102295,
+    "magZ" : -32.276248931884766,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -82", "eduroam, b8:be:bf:ef:1b:e1, -69", "central, b8:be:bf:ef:1b:e0, -67", "Visit-Ed, b8:3a:5a:bb:6c:82, -91", "eduroam, c4:0a:cb:25:13:c1, -83", "Visit-Ed, b8:3a:5a:bb:dd:f2, -89", "central, b8:3a:5a:bb:dd:f1, -87", "eduroam, 34:db:fd:97:fd:41, -80", "Visit-Ed, b8:3a:5a:bb:08:e2, -92", "eduroam, b8:be:bf:ef:1b:ee, -81", "central, 58:97:1e:14:16:10, -83", "central, b8:be:bf:ef:1b:ef, -82", "central, f8:4f:57:f1:c3:50, -91", "eduroam, 54:78:1a:73:a2:6e, -85", "central, 54:78:1a:73:a2:6f, -84", "eduroam, 58:97:1e:14:75:5e, -90", "eduroam, 34:db:fd:97:fd:4e, -90", "central, 34:db:fd:97:fd:4f, -89", "central, b8:3a:5a:bb:51:81, -89", "Visit-Ed, b8:3a:5a:bb:51:82, -89" ]
+  },
+  "3,1,tlg" : {
+    "magH" : 36.4782114708133,
+    "magX" : 9.438749313354492,
+    "magY" : 1.3512499332427979,
+    "magZ" : -35.209999084472656,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "wormzer, b6:ed:84:07:01:75, -71", "eduroam, 00:1b:8f:88:9a:ee, -87", "midea_15_0595, 70:86:ce:82:53:9f, -81", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:c0, -83", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -70", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -82", "central, 6c:99:89:0d:91:4f, -69", "eduroam, 6c:99:89:0d:91:4e, -66", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -78", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "central, 6c:99:89:0d:91:40, -62", "eduroam, 6c:99:89:0d:91:41, -75" ]
+  },
+  "3,10,fj" : {
+    "magH" : 559.9277576169983,
+    "magX" : -247.6318359375,
+    "magY" : -259.37042236328125,
+    "magZ" : -430.0285339355469,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -43", "central, 58:97:1e:15:11:60, -43", "eduroam, 58:97:1e:15:11:6e, -48", "central, 58:97:1e:15:11:6f, -49", "TP-Link_F946, d8:07:b6:13:f9:46, -65", "central, c4:14:3c:e5:6c:00, -80" ]
+  },
+  "3,10,sanderson" : {
+    "magH" : 41.807230025700996,
+    "magX" : -11.719999313354492,
+    "magY" : -25.247499465942383,
+    "magZ" : -31.193748474121094,
+    "scanResults" : [ "Visit-Ed, b8:3a:5a:bb:dd:f2, -87", "central, b8:3a:5a:bb:dd:f1, -87", "Visit-Ed, b8:3a:5a:bb:5d:c2, -80", "eduroam, b8:3a:5a:bb:5d:c0, -79", "Visit-Ed, b8:3a:5a:bb:5d:d2, -86", "central, b8:3a:5a:bb:5d:d1, -87", "eduroam, b8:3a:5a:bb:5d:d0, -85", "eduroam, b8:3a:5a:bb:ae:b0, -81" ]
+  },
+  "3,2,tlg" : {
+    "magH" : 34.669626940977636,
+    "magX" : 8.598750114440918,
+    "magY" : -0.41999998688697815,
+    "magZ" : -33.58374786376953,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "wormzer, b6:ed:84:07:01:75, -71", "eduroam, 00:1b:8f:88:9a:ee, -87", "midea_15_0595, 70:86:ce:82:53:9f, -81", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:c0, -83", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -70", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -82", "central, 6c:99:89:0d:91:4f, -69", "eduroam, 6c:99:89:0d:91:4e, -66", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -78", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "central, 6c:99:89:0d:91:40, -62", "eduroam, 6c:99:89:0d:91:41, -75" ]
+  },
+  "4,0,corridor_sanderson" : {
+    "magH" : 33.48006198890991,
+    "magX" : 7.578749656677246,
+    "magY" : 2.7774999141693115,
+    "magZ" : -32.49250030517578,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -82", "eduroam, b8:be:bf:ef:1b:e1, -69", "central, b8:be:bf:ef:1b:e0, -67", "Visit-Ed, b8:3a:5a:bb:6c:82, -91", "eduroam, c4:0a:cb:25:13:c1, -83", "Visit-Ed, b8:3a:5a:bb:dd:f2, -89", "central, b8:3a:5a:bb:dd:f1, -87", "eduroam, 34:db:fd:97:fd:41, -80", "Visit-Ed, b8:3a:5a:bb:08:e2, -92", "eduroam, b8:be:bf:ef:1b:ee, -81", "central, 58:97:1e:14:16:10, -83", "central, b8:be:bf:ef:1b:ef, -82", "central, f8:4f:57:f1:c3:50, -91", "eduroam, 54:78:1a:73:a2:6e, -85", "central, 54:78:1a:73:a2:6f, -84", "eduroam, 58:97:1e:14:75:5e, -90", "eduroam, 34:db:fd:97:fd:4e, -90", "central, 34:db:fd:97:fd:4f, -89", "central, b8:3a:5a:bb:51:81, -89", "Visit-Ed, b8:3a:5a:bb:51:82, -89" ]
+  },
+  "4,1,tlg" : {
+    "magH" : 33.3730687643495,
+    "magX" : 7.387499809265137,
+    "magY" : -0.8612499833106995,
+    "magZ" : -32.533748626708984,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "wormzer, b6:ed:84:07:01:75, -71", "eduroam, 00:1b:8f:88:9a:ee, -87", "midea_15_0595, 70:86:ce:82:53:9f, -81", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:c0, -83", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -70", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -82", "central, 6c:99:89:0d:91:4f, -69", "eduroam, 6c:99:89:0d:91:4e, -66", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -78", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "central, 6c:99:89:0d:91:40, -62", "eduroam, 6c:99:89:0d:91:41, -75" ]
+  },
+  "4,10,fj" : {
+    "magH" : 464.52013209870677,
+    "magX" : -194.88296508789062,
+    "magY" : -247.80006408691406,
+    "magZ" : -341.16668701171875,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -43", "central, 58:97:1e:15:11:60, -43", "eduroam, 58:97:1e:15:11:6e, -48", "central, 58:97:1e:15:11:6f, -49", "TP-Link_F946, d8:07:b6:13:f9:46, -65", "central, c4:14:3c:e5:6c:00, -80" ]
+  },
+  "4,10,sanderson" : {
+    "magH" : 44.233337368614016,
+    "magX" : -9.363749504089355,
+    "magY" : -29.125,
+    "magZ" : -31.947500228881836,
+    "scanResults" : [ "Visit-Ed, b8:3a:5a:bb:dd:f2, -87", "central, b8:3a:5a:bb:dd:f1, -87", "Visit-Ed, b8:3a:5a:bb:5d:c2, -80", "eduroam, b8:3a:5a:bb:5d:c0, -79", "Visit-Ed, b8:3a:5a:bb:5d:d2, -86", "central, b8:3a:5a:bb:5d:d1, -87", "eduroam, b8:3a:5a:bb:5d:d0, -85", "eduroam, b8:3a:5a:bb:ae:b0, -81" ]
+  },
+  "4,2,tlg" : {
+    "magH" : 33.541849443083784,
+    "magX" : 16.21500015258789,
+    "magY" : -5.039999961853027,
+    "magZ" : -28.92624855041504,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "wormzer, b6:ed:84:07:01:75, -71", "eduroam, 00:1b:8f:88:9a:ee, -87", "midea_15_0595, 70:86:ce:82:53:9f, -81", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:c0, -83", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -70", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -82", "central, 6c:99:89:0d:91:4f, -69", "eduroam, 6c:99:89:0d:91:4e, -66", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -78", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "central, 6c:99:89:0d:91:40, -62", "eduroam, 6c:99:89:0d:91:41, -75" ]
+  },
+  "5,0,corridor_sanderson" : {
+    "magH" : 37.92295334787363,
+    "magX" : 1.7049999237060547,
+    "magY" : 7.9375,
+    "magZ" : -37.04375076293945,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -82", "eduroam, b8:be:bf:ef:1b:e1, -69", "central, b8:be:bf:ef:1b:e0, -67", "Visit-Ed, b8:3a:5a:bb:6c:82, -91", "eduroam, c4:0a:cb:25:13:c1, -83", "Visit-Ed, b8:3a:5a:bb:dd:f2, -89", "central, b8:3a:5a:bb:dd:f1, -87", "eduroam, 34:db:fd:97:fd:41, -80", "Visit-Ed, b8:3a:5a:bb:08:e2, -92", "eduroam, b8:be:bf:ef:1b:ee, -81", "central, 58:97:1e:14:16:10, -83", "central, b8:be:bf:ef:1b:ef, -82", "central, f8:4f:57:f1:c3:50, -91", "eduroam, 54:78:1a:73:a2:6e, -85", "central, 54:78:1a:73:a2:6f, -84", "eduroam, 58:97:1e:14:75:5e, -90", "eduroam, 34:db:fd:97:fd:4e, -90", "central, 34:db:fd:97:fd:4f, -89", "central, b8:3a:5a:bb:51:81, -89", "Visit-Ed, b8:3a:5a:bb:51:82, -89" ]
+  },
+  "5,1,tlg" : {
+    "magH" : 34.33140523984108,
+    "magX" : 5.664999961853027,
+    "magY" : -3.7274999618530273,
+    "magZ" : -33.654998779296875,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "wormzer, b6:ed:84:07:01:75, -71", "eduroam, 00:1b:8f:88:9a:ee, -87", "midea_15_0595, 70:86:ce:82:53:9f, -81", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:c0, -83", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -70", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -82", "central, 6c:99:89:0d:91:4f, -69", "eduroam, 6c:99:89:0d:91:4e, -66", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -78", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "central, 6c:99:89:0d:91:40, -62", "eduroam, 6c:99:89:0d:91:41, -75" ]
+  },
+  "5,10,fj" : {
+    "magH" : 475.1665826318177,
+    "magX" : -340.3629150390625,
+    "magY" : -268.49212646484375,
+    "magZ" : -194.5465087890625,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -43", "central, 58:97:1e:15:11:60, -43", "eduroam, 58:97:1e:15:11:6e, -48", "central, 58:97:1e:15:11:6f, -49", "TP-Link_F946, d8:07:b6:13:f9:46, -65", "central, c4:14:3c:e5:6c:00, -80" ]
+  },
+  "5,10,sanderson" : {
+    "magH" : 44.58678007023214,
+    "magX" : -8.960000038146973,
+    "magY" : -31.28125,
+    "magZ" : -30.482500076293945,
+    "scanResults" : [ "Visit-Ed, b8:3a:5a:bb:dd:f2, -87", "central, b8:3a:5a:bb:dd:f1, -87", "Visit-Ed, b8:3a:5a:bb:5d:c2, -80", "eduroam, b8:3a:5a:bb:5d:c0, -79", "Visit-Ed, b8:3a:5a:bb:5d:d2, -86", "central, b8:3a:5a:bb:5d:d1, -87", "eduroam, b8:3a:5a:bb:5d:d0, -85", "eduroam, b8:3a:5a:bb:ae:b0, -81" ]
+  },
+  "5,2,tlg" : {
+    "magH" : 36.206213452639936,
+    "magX" : 11.351249694824219,
+    "magY" : -9.19374942779541,
+    "magZ" : -33.12874984741211,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "wormzer, b6:ed:84:07:01:75, -71", "eduroam, 00:1b:8f:88:9a:ee, -87", "midea_15_0595, 70:86:ce:82:53:9f, -81", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:c0, -83", "eduroam, 54:78:1a:21:3b:c1, -84", "central, 58:97:1e:14:75:50, -70", "eduroam, 34:a8:4e:fd:68:ee, -82", "central, 34:a8:4e:fd:68:ef, -82", "central, 6c:99:89:0d:91:4f, -69", "eduroam, 6c:99:89:0d:91:4e, -66", "central, 58:97:1e:14:75:5f, -80", "eduroam, 58:97:1e:14:75:5e, -78", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "central, 6c:99:89:0d:91:40, -62", "eduroam, 6c:99:89:0d:91:41, -75" ]
+  },
+  "6,0,corridor_sanderson" : {
+    "magH" : 32.40537795656475,
+    "magX" : 5.778749942779541,
+    "magY" : 6.690000057220459,
+    "magZ" : -31.17624855041504,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -82", "eduroam, b8:be:bf:ef:1b:e1, -69", "central, b8:be:bf:ef:1b:e0, -67", "Visit-Ed, b8:3a:5a:bb:6c:82, -91", "eduroam, c4:0a:cb:25:13:c1, -83", "Visit-Ed, b8:3a:5a:bb:dd:f2, -89", "central, b8:3a:5a:bb:dd:f1, -87", "eduroam, 34:db:fd:97:fd:41, -80", "Visit-Ed, b8:3a:5a:bb:08:e2, -92", "eduroam, b8:be:bf:ef:1b:ee, -81", "central, 58:97:1e:14:16:10, -83", "central, b8:be:bf:ef:1b:ef, -82", "central, f8:4f:57:f1:c3:50, -91", "eduroam, 54:78:1a:73:a2:6e, -85", "central, 54:78:1a:73:a2:6f, -84", "eduroam, 58:97:1e:14:75:5e, -90", "eduroam, 34:db:fd:97:fd:4e, -90", "central, 34:db:fd:97:fd:4f, -89", "central, b8:3a:5a:bb:51:81, -89", "Visit-Ed, b8:3a:5a:bb:51:82, -89" ]
+  },
+  "6,1,tlg" : {
+    "magH" : 37.78138085430193,
+    "magX" : 6.202499866485596,
+    "magY" : -7.668749809265137,
+    "magZ" : -36.471248626708984,
+    "scanResults" : [ "central, 34:a8:4e:fd:68:e0, -83", "eduroam, 00:1b:8f:88:9a:ee, -87", "central, 00:1b:8f:88:9a:ef, -80", "central, 54:78:1a:21:3b:cf, -76", "eduroam, 54:78:1a:21:3b:ce, -76", "central, 54:78:1a:21:3b:c0, -68", "eduroam, 54:78:1a:21:3b:c1, -68", "eduroam, 34:a8:4e:fd:68:ee, -79", "central, 34:a8:4e:fd:68:ef, -80", "central, 6c:99:89:0d:91:4f, -60", "eduroam, 6c:99:89:0d:91:4e, -57", "central, 58:97:1e:14:75:5f, -87", "eduroam, 58:97:1e:14:75:5e, -86", "central, 6c:99:89:0d:91:40, -51", "eduroam, 6c:99:89:0d:91:41, -51" ]
+  },
+  "6,10,fj" : {
+    "magH" : 314.2466562073493,
+    "magX" : -187.2753143310547,
+    "magY" : -209.1449737548828,
+    "magZ" : -141.19949340820312,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -35", "central, 58:97:1e:15:11:60, -35", "central, 58:97:1e:15:11:6f, -39", "eduroam, 58:97:1e:15:11:6e, -42", "TP-Link_F946, d8:07:b6:13:f9:46, -73", "central, c4:14:3c:e5:6c:00, -84", "eduroam, c4:14:3c:e5:6c:01, -84" ]
+  },
+  "6,10,sanderson" : {
+    "magH" : 44.448516896482325,
+    "magX" : -7.12999963760376,
+    "magY" : -30.876249313354492,
+    "magZ" : -31.16874885559082,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ae:a0, -84", "Visit-Ed, b8:3a:5a:bb:ae:a2, -89", "Visit-Ed, b8:3a:5a:bb:5d:c2, -80", "central, b8:3a:5a:bb:5d:c1, -79", "eduroam, b8:3a:5a:bb:5d:c0, -80", "central, b8:3a:5a:bb:dd:e1, -90", "Visit-Ed, b8:3a:5a:bb:dd:e2, -87" ]
+  },
+  "6,2,tlg" : {
+    "magH" : 36.50558136371923,
+    "magX" : 12.550000190734863,
+    "magY" : -5.00124979019165,
+    "magZ" : -33.91374969482422,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:64:70, -85", "central, b8:3a:5a:bb:64:71, -87", "Visit-Ed, b8:3a:5a:bb:64:72, -85", "eduroam, 00:1b:8f:88:9a:ee, -89", "central, 00:1b:8f:88:9a:ef, -88", "Visit-Ed, b8:3a:5a:bc:3a:c2, -85", "central, 54:78:1a:21:3b:cf, -79", "eduroam, 54:78:1a:21:3b:ce, -80", "central, 00:a6:ca:71:6d:5f, -89", "eduroam, 00:a6:ca:71:6d:5e, -87", "central, 54:78:1a:21:3b:c0, -72", "eduroam, 54:78:1a:21:3b:c1, -70", "eduroam, 58:97:1e:14:75:51, -75", "eduroam, 34:a8:4e:fd:68:ee, -76", "central, 00:1b:8f:88:9a:e0, -89", "central, 34:a8:4e:fd:68:ef, -76", "central, 6c:99:89:0d:91:4f, -59", "eduroam, 6c:99:89:0d:91:4e, -59", "central, 58:97:1e:14:75:5f, -82", "eduroam, 58:97:1e:14:75:5e, -83", "eduroam, b8:3a:5a:bb:64:60, -77", "Visit-Ed, b8:3a:5a:bb:64:62, -80", "central, 6c:99:89:0d:91:40, -55", "eduroam, 6c:99:89:0d:91:41, -53", "FilipiPhone, a2:7e:0a:5e:2a:11, -87" ]
+  },
+  "7,0,corridor_sanderson" : {
+    "magH" : 38.23869286254353,
+    "magX" : 5.358749866485596,
+    "magY" : 1.1124999523162842,
+    "magZ" : -37.84499740600586,
+    "scanResults" : [ "eduroam, 54:78:1a:73:a2:61, -82", "eduroam, b8:be:bf:ef:1b:e1, -69", "central, b8:be:bf:ef:1b:e0, -67", "Visit-Ed, b8:3a:5a:bb:6c:82, -91", "eduroam, c4:0a:cb:25:13:c1, -83", "Visit-Ed, b8:3a:5a:bb:dd:f2, -89", "central, b8:3a:5a:bb:dd:f1, -87", "eduroam, 34:db:fd:97:fd:41, -80", "Visit-Ed, b8:3a:5a:bb:08:e2, -92", "eduroam, b8:be:bf:ef:1b:ee, -81", "central, 58:97:1e:14:16:10, -83", "central, b8:be:bf:ef:1b:ef, -82", "central, f8:4f:57:f1:c3:50, -91", "eduroam, 54:78:1a:73:a2:6e, -85", "central, 54:78:1a:73:a2:6f, -84", "eduroam, 58:97:1e:14:75:5e, -90", "eduroam, 34:db:fd:97:fd:4e, -90", "central, 34:db:fd:97:fd:4f, -89", "central, b8:3a:5a:bb:51:81, -89", "Visit-Ed, b8:3a:5a:bb:51:82, -89" ]
+  },
+  "7,1,tlg" : {
+    "magH" : 41.74210927257315,
+    "magX" : 6.846250057220459,
+    "magY" : -5.964999675750732,
+    "magZ" : -40.74250030517578,
+    "scanResults" : [ "central, 54:78:1a:73:a2:60, -78", "eduroam, 34:a8:4e:fd:68:e1, -83", "eduroam, 00:1b:8f:88:9a:ee, -89", "central, 54:78:1a:21:3b:cf, -70", "eduroam, 54:78:1a:21:3b:ce, -70", "central, 54:78:1a:21:3b:c0, -70", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -76", "central, 34:a8:4e:fd:68:ef, -76", "central, 6c:99:89:0d:91:4f, -50", "eduroam, 6c:99:89:0d:91:4e, -51", "Galaxy S20 5Gceb8, 1e:c5:f5:81:d3:7c, -81", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -73", "central, b8:3a:5a:bb:64:61, -80", "Visit-Ed, b8:3a:5a:bb:64:62, -82" ]
+  },
+  "7,10,fj" : {
+    "magH" : 263.6347497011727,
+    "magX" : -184.00421142578125,
+    "magY" : -151.19972229003906,
+    "magZ" : -113.06800842285156,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:6e, -41", "central, 58:97:1e:15:11:6f, -41", "eduroam, 58:97:1e:15:11:61, -44", "central, 58:97:1e:15:11:60, -44", "central, 34:a8:4e:fd:68:e0, -74", "eduroam, 34:a8:4e:fd:68:e1, -74", "TP-Link_F946, d8:07:b6:13:f9:46, -80", "central, c4:14:3c:e5:6c:00, -86", "eduroam, c4:14:3c:e5:6c:01, -86" ]
+  },
+  "7,10,sanderson" : {
+    "magH" : 42.12925956765381,
+    "magX" : -10.2524995803833,
+    "magY" : -30.15250015258789,
+    "magZ" : -27.57874870300293,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ae:a0, -84", "Visit-Ed, b8:3a:5a:bb:ae:a2, -89", "Visit-Ed, b8:3a:5a:bb:5d:c2, -80", "central, b8:3a:5a:bb:5d:c1, -79", "eduroam, b8:3a:5a:bb:5d:c0, -80", "central, b8:3a:5a:bb:dd:e1, -90", "Visit-Ed, b8:3a:5a:bb:dd:e2, -87" ]
+  },
+  "7,2,tlg" : {
+    "magH" : 36.02365521919677,
+    "magX" : 11.574999809265137,
+    "magY" : 1.6949999332427979,
+    "magZ" : -34.071250915527344,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "central, 34:a8:4e:fd:68:e0, -80", "midea_15_0595, 70:86:ce:82:53:9f, -77", "central, 54:78:1a:21:3b:cf, -71", "eduroam, 54:78:1a:21:3b:ce, -70", ", 7a:05:ab:10:2c:db, -86", "central, 54:78:1a:21:3b:c0, -69", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -74", "central, 34:a8:4e:fd:68:ef, -73", "central, 6c:99:89:0d:91:4f, -57", "eduroam, 6c:99:89:0d:91:4e, -56", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -86", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -72", "central, b8:3a:5a:bb:64:61, -69", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "eduroam, 6c:99:89:0d:91:41, -50", "FilipiPhone, a2:7e:0a:5e:2a:11, -79" ]
+  },
+  "8,0,corridor_sanderson" : {
+    "magH" : 41.64027321615007,
+    "magX" : 10.041250228881836,
+    "magY" : 7.509999752044678,
+    "magZ" : -39.70750045776367,
+    "scanResults" : [ "central, 54:78:1a:73:a2:60, -84", "eduroam, b8:be:bf:ef:1b:e1, -79", "central, b8:be:bf:ef:1b:e0, -78", "BTWi-fi, 7a:ce:da:80:fd:90, -92", "eduroam, b8:3a:5a:bb:6c:80, -87", "eduroam, b8:3a:5a:bb:ae:a0, -85", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "central, b8:3a:5a:bb:6c:81, -89", "eduroam, c4:0a:cb:25:13:c1, -81", "Visit-Ed, b8:3a:5a:bb:dd:f2, -85", "eduroam, b8:3a:5a:bb:dd:f0, -87", "central, b8:3a:5a:bb:dd:f1, -86", "eduroam, 58:97:1e:15:11:6e, -87", "central, 58:97:1e:15:11:6f, -85", "eduroam, b8:3a:5a:bb:dd:e0, -82", "eduroam, 34:a8:4e:fd:68:ee, -88", "central, 24:01:c7:f7:7f:1f, -88", "central, 34:db:fd:97:fd:40, -87", "eduroam, 24:01:c7:f7:7f:1e, -90", "central, b8:3a:5a:bb:08:e1, -89", "BT-5JATZ8, a4:ce:da:80:fd:97, -90", "eduroam, b8:be:bf:ef:1b:ee, -86", "central, 58:97:1e:14:16:10, -86", "central, b8:be:bf:ef:1b:ef, -83", "eduroam, 54:78:1a:73:a2:6e, -89", "central, b8:3a:5a:bb:51:91, -91", "Visit-Ed, b8:3a:5a:bb:51:92, -90", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, 34:db:fd:97:fd:4e, -89", "central, bc:9f:e4:e8:10:c2, -89", "central, 34:db:fd:97:fd:4f, -88", "eduroam, c4:0a:cb:25:13:ce, -83", "eduroam, b8:3a:5a:bb:ae:b0, -88", "central, b8:3a:5a:bb:ae:b1, -88", "Visit-Ed, b8:3a:5a:bb:ae:b2, -88", "eduroam, b8:3a:5a:bb:51:80, -89", "central, b8:3a:5a:bb:51:81, -93", "Visit-Ed, b8:3a:5a:bb:51:82, -93" ]
+  },
+  "8,0,tlg" : {
+    "magH" : 46.1498466910712,
+    "magX" : 15.891249656677246,
+    "magY" : -7.899999618530273,
+    "magZ" : -42.60124969482422,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "central, 34:a8:4e:fd:68:e0, -80", "midea_15_0595, 70:86:ce:82:53:9f, -77", "central, 54:78:1a:21:3b:cf, -71", "eduroam, 54:78:1a:21:3b:ce, -70", ", 7a:05:ab:10:2c:db, -86", "central, 54:78:1a:21:3b:c0, -69", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -74", "central, 34:a8:4e:fd:68:ef, -73", "central, 6c:99:89:0d:91:4f, -57", "eduroam, 6c:99:89:0d:91:4e, -56", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -86", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -72", "central, b8:3a:5a:bb:64:61, -69", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "eduroam, 6c:99:89:0d:91:41, -50", "FilipiPhone, a2:7e:0a:5e:2a:11, -79" ]
+  },
+  "8,1,tlg" : {
+    "magH" : 42.145863423483654,
+    "magX" : 8.30875015258789,
+    "magY" : -5.717499732971191,
+    "magZ" : -40.92124938964844,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "central, 34:a8:4e:fd:68:e0, -80", "midea_15_0595, 70:86:ce:82:53:9f, -77", "central, 54:78:1a:21:3b:cf, -71", "eduroam, 54:78:1a:21:3b:ce, -70", ", 7a:05:ab:10:2c:db, -86", "central, 54:78:1a:21:3b:c0, -69", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -74", "central, 34:a8:4e:fd:68:ef, -73", "central, 6c:99:89:0d:91:4f, -57", "eduroam, 6c:99:89:0d:91:4e, -56", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -86", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -72", "central, b8:3a:5a:bb:64:61, -69", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "eduroam, 6c:99:89:0d:91:41, -50", "FilipiPhone, a2:7e:0a:5e:2a:11, -79" ]
+  },
+  "8,10,fj" : {
+    "magH" : 137.46863278581046,
+    "magX" : -59.627532958984375,
+    "magY" : -45.795440673828125,
+    "magZ" : -115.08674621582031,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -34", "central, 58:97:1e:15:11:60, -34", "eduroam, 58:97:1e:15:11:6e, -38", "central, 58:97:1e:15:11:6f, -39", "central, 34:a8:4e:fd:68:e0, -71", "eduroam, 34:a8:4e:fd:68:e1, -72", "TP-Link_F946, d8:07:b6:13:f9:46, -78", "eduroam, 34:a8:4e:fd:68:ee, -83", "central, 34:a8:4e:fd:68:ef, -83", "eduroam, c4:14:3c:e5:6c:01, -85", "central, c4:14:3c:e5:6c:00, -86" ]
+  },
+  "8,10,sanderson" : {
+    "magH" : 42.996456976127696,
+    "magX" : -8.108749389648438,
+    "magY" : -32.53499984741211,
+    "magZ" : -26.91499900817871,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ae:a0, -84", "Visit-Ed, b8:3a:5a:bb:ae:a2, -89", "Visit-Ed, b8:3a:5a:bb:5d:c2, -80", "central, b8:3a:5a:bb:5d:c1, -79", "eduroam, b8:3a:5a:bb:5d:c0, -80", "central, b8:3a:5a:bb:dd:e1, -90", "Visit-Ed, b8:3a:5a:bb:dd:e2, -87" ]
+  },
+  "8,2,tlg" : {
+    "magH" : 34.96703944654523,
+    "magX" : 16.052499771118164,
+    "magY" : -0.5362499952316284,
+    "magZ" : -31.059999465942383,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "central, 34:a8:4e:fd:68:e0, -80", "midea_15_0595, 70:86:ce:82:53:9f, -77", "central, 54:78:1a:21:3b:cf, -71", "eduroam, 54:78:1a:21:3b:ce, -70", ", 7a:05:ab:10:2c:db, -86", "central, 54:78:1a:21:3b:c0, -69", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -74", "central, 34:a8:4e:fd:68:ef, -73", "central, 6c:99:89:0d:91:4f, -57", "eduroam, 6c:99:89:0d:91:4e, -56", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -86", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -72", "central, b8:3a:5a:bb:64:61, -69", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "eduroam, 6c:99:89:0d:91:41, -50", "FilipiPhone, a2:7e:0a:5e:2a:11, -79" ]
+  },
+  "9,0,corridor_sanderson" : {
+    "magH" : 38.81841710884071,
+    "magX" : 10.380000114440918,
+    "magY" : 6.026249885559082,
+    "magZ" : -36.9162483215332,
+    "scanResults" : [ "central, 54:78:1a:73:a2:60, -84", "eduroam, b8:be:bf:ef:1b:e1, -79", "central, b8:be:bf:ef:1b:e0, -78", "BTWi-fi, 7a:ce:da:80:fd:90, -92", "eduroam, b8:3a:5a:bb:6c:80, -87", "eduroam, b8:3a:5a:bb:ae:a0, -85", "Visit-Ed, b8:3a:5a:bb:6c:82, -88", "central, b8:3a:5a:bb:6c:81, -89", "eduroam, c4:0a:cb:25:13:c1, -81", "Visit-Ed, b8:3a:5a:bb:dd:f2, -85", "eduroam, b8:3a:5a:bb:dd:f0, -87", "central, b8:3a:5a:bb:dd:f1, -86", "eduroam, 58:97:1e:15:11:6e, -87", "central, 58:97:1e:15:11:6f, -85", "eduroam, b8:3a:5a:bb:dd:e0, -82", "eduroam, 34:a8:4e:fd:68:ee, -88", "central, 24:01:c7:f7:7f:1f, -88", "central, 34:db:fd:97:fd:40, -87", "eduroam, 24:01:c7:f7:7f:1e, -90", "central, b8:3a:5a:bb:08:e1, -89", "BT-5JATZ8, a4:ce:da:80:fd:97, -90", "eduroam, b8:be:bf:ef:1b:ee, -86", "central, 58:97:1e:14:16:10, -86", "central, b8:be:bf:ef:1b:ef, -83", "eduroam, 54:78:1a:73:a2:6e, -89", "central, b8:3a:5a:bb:51:91, -91", "Visit-Ed, b8:3a:5a:bb:51:92, -90", "central, 58:97:1e:14:75:5f, -86", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, 34:db:fd:97:fd:4e, -89", "central, bc:9f:e4:e8:10:c2, -89", "central, 34:db:fd:97:fd:4f, -88", "eduroam, c4:0a:cb:25:13:ce, -83", "eduroam, b8:3a:5a:bb:ae:b0, -88", "central, b8:3a:5a:bb:ae:b1, -88", "Visit-Ed, b8:3a:5a:bb:ae:b2, -88", "eduroam, b8:3a:5a:bb:51:80, -89", "central, b8:3a:5a:bb:51:81, -93", "Visit-Ed, b8:3a:5a:bb:51:82, -93" ]
+  },
+  "9,0,tlg" : {
+    "magH" : 38.44923918805969,
+    "magX" : 10.023749351501465,
+    "magY" : -6.31374979019165,
+    "magZ" : -36.57875061035156,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "central, 34:a8:4e:fd:68:e0, -80", "midea_15_0595, 70:86:ce:82:53:9f, -77", "central, 54:78:1a:21:3b:cf, -71", "eduroam, 54:78:1a:21:3b:ce, -70", ", 7a:05:ab:10:2c:db, -86", "central, 54:78:1a:21:3b:c0, -69", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -74", "central, 34:a8:4e:fd:68:ef, -73", "central, 6c:99:89:0d:91:4f, -57", "eduroam, 6c:99:89:0d:91:4e, -56", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -86", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -72", "central, b8:3a:5a:bb:64:61, -69", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "eduroam, 6c:99:89:0d:91:41, -50", "FilipiPhone, a2:7e:0a:5e:2a:11, -79" ]
+  },
+  "9,1,tlg" : {
+    "magH" : 39.362591050625085,
+    "magX" : 16.45374870300293,
+    "magY" : -5.061249732971191,
+    "magZ" : -35.39875030517578,
+    "scanResults" : [ "eduroam, 34:a8:4e:fd:68:e1, -80", "central, 34:a8:4e:fd:68:e0, -80", "midea_15_0595, 70:86:ce:82:53:9f, -77", "central, 54:78:1a:21:3b:cf, -71", "eduroam, 54:78:1a:21:3b:ce, -70", ", 7a:05:ab:10:2c:db, -86", "central, 54:78:1a:21:3b:c0, -69", "eduroam, 54:78:1a:21:3b:c1, -69", "central, 58:97:1e:14:75:50, -81", "eduroam, 34:a8:4e:fd:68:ee, -74", "central, 34:a8:4e:fd:68:ef, -73", "central, 6c:99:89:0d:91:4f, -57", "eduroam, 6c:99:89:0d:91:4e, -56", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -86", "central, 58:97:1e:14:75:5f, -85", "eduroam, 58:97:1e:14:75:5e, -87", "eduroam, b8:3a:5a:bb:64:60, -72", "central, b8:3a:5a:bb:64:61, -69", "Visit-Ed, b8:3a:5a:bb:64:62, -72", "eduroam, 6c:99:89:0d:91:41, -50", "FilipiPhone, a2:7e:0a:5e:2a:11, -79" ]
+  },
+  "9,10,fj" : {
+    "magH" : 26.82213186554156,
+    "magX" : -2.99072265625,
+    "magY" : -16.037750244140625,
+    "magZ" : 21.290206909179688,
+    "scanResults" : [ "eduroam, 58:97:1e:15:11:61, -47", "central, 58:97:1e:15:11:60, -47", "eduroam, 58:97:1e:15:11:6e, -51", "central, 58:97:1e:15:11:6f, -57", "eduroam, 58:97:1e:14:75:51, -66", "central, 58:97:1e:14:75:50, -67", "wormzer, b6:ed:84:07:01:75, -71", "DIRECT-OADESKTOP-LA5SDQ6msAT, aa:22:ef:dc:ed:d9, -72", "central, 34:a8:4e:fd:68:ef, -81", "eduroam, 58:97:1e:14:75:5e, -82", "central, 58:97:1e:14:75:5f, -82", "eduroam, 34:a8:4e:fd:68:ee, -82", "eduroam, 54:78:1a:73:a2:6e, -92", "central, 54:78:1a:73:a2:6f, -93" ]
+  },
+  "9,10,sanderson" : {
+    "magH" : 44.272280154054215,
+    "magX" : -7.37999963760376,
+    "magY" : -33.411251068115234,
+    "magZ" : -28.09375,
+    "scanResults" : [ "eduroam, b8:3a:5a:bb:ae:a0, -87", "central, b8:3a:5a:bb:ae:a1, -90", "Visit-Ed, b8:3a:5a:bb:ae:a2, -90", "central, b8:3a:5a:bb:dd:e1, -89", "Visit-Ed, b8:3a:5a:ba:86:32, -90", "central, b8:3a:5a:ba:86:31, -90", "eduroam, b8:3a:5a:bb:2c:80, -83" ]
+  }
+}
